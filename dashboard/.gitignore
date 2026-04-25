@@ -1,0 +1,23 @@
+# R
+.Rhistory
+.Rproj.user
+*.Rproj
+rsconnect/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (raw files are not committed — only pipeline_output.json)
+data/bls/*.xlsx
+data/bls/*.csv
+data/internal/
+!data/bls/.gitkeep
+!data/internal/.gitkeep
