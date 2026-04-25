@@ -6,6 +6,30 @@ A **config-driven, multi-domain scoring dashboard** built as an MQE (Master of Q
 
 ---
 
+## Screenshots
+
+### Program Detail
+Deep-dive into any program's metrics: domain scores, dimension breakdown, enrollment trends, financial P&L, BLS projections, and skills radar.
+
+![Program Detail](docs/program_detail.png)
+
+### Overview
+Nine program tiles ranked by composite score with signal colors, domain badges, and supply ratio indicators.
+
+![Overview](docs/overview.png)
+
+### Compare
+Side-by-side program comparison across demand dimensions, domain scores, enrollment trends, and financials.
+
+![Compare](docs/compare.png)
+
+### Supply Analysis
+National supply ratio chart, 7-year completions trend, and state competitor tables from IPEDS data.
+
+![Supply Analysis](docs/supply_analysis.png)
+
+---
+
 ## What This Is
 
 An interactive dashboard that scores and ranks academic programs across three domains:

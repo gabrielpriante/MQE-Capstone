@@ -333,13 +333,15 @@ server <- function(input, output, session) {
 
       # Recompute signals with new thresholds
       for (d in names(dims)) {
-        dims[[d]]$signal <- get_signal(dims[[d]]$score, gt, yt)
+        sc <- dims[[d]]$score
+        if (is.null(sc)) sc <- NA_real_
+        dims[[d]]$signal <- get_signal(sc, gt, yt)
       }
 
-      demand_score <- sp$demand$score
-      inst_score   <- sp$institutional$score
-      fin_score    <- sp$financial$score
-      comp_score   <- sp$composite$score
+      demand_score <- if (is.null(sp$demand$score)) 0 else sp$demand$score
+      inst_score   <- if (is.null(sp$institutional$score)) 0 else sp$institutional$score
+      fin_score    <- if (is.null(sp$financial$score)) 0 else sp$financial$score
+      comp_score   <- if (is.null(sp$composite$score)) 0 else sp$composite$score
 
       # Benchmark mode: normalize to selected program
       if (bm && !is.null(bm_prog)) {
@@ -445,8 +447,12 @@ server <- function(input, output, session) {
       for (i in seq_along(all_dims)) {
         d <- all_dims[i]
         if (!is.null(dims[[d]])) {
-          mat[i, j] <- dims[[d]]$score
-          text_mat[i, j] <- paste0(dims[[d]]$raw_label, "\n", round(dims[[d]]$score, 1), "/100")
+          sc <- dims[[d]]$score
+          if (is.null(sc)) sc <- NA_real_
+          mat[i, j] <- sc
+          rl <- dims[[d]]$raw_label
+          if (is.null(rl)) rl <- "N/A"
+          text_mat[i, j] <- paste0(rl, "\n", if (!is.na(sc)) paste0(round(sc, 1), "/100") else "N/A")
         }
       }
     }
@@ -812,14 +818,16 @@ server <- function(input, output, session) {
     scores <- rv_scores()
     sorted_keys <- names(scores)[order(sapply(scores, function(s) s$rank))]
 
+    safe_num <- function(x) { if (is.null(x) || length(x) == 0) NA_real_ else as.numeric(x) }
+
     df <- data.frame(
-      Rank = sapply(sorted_keys, function(k) scores[[k]]$rank),
-      Signal = sapply(sorted_keys, function(k) signal_icon(scores[[k]]$composite_signal)),
-      Program = sapply(sorted_keys, function(k) scores[[k]]$full_name),
-      Composite = sapply(sorted_keys, function(k) round(scores[[k]]$composite, 1)),
-      Demand = sapply(sorted_keys, function(k) round(scores[[k]]$demand, 1)),
-      Institutional = sapply(sorted_keys, function(k) round(scores[[k]]$institutional, 1)),
-      Financial = sapply(sorted_keys, function(k) round(scores[[k]]$financial, 1)),
+      Rank = vapply(sorted_keys, function(k) safe_num(scores[[k]]$rank), numeric(1)),
+      Signal = vapply(sorted_keys, function(k) signal_icon(scores[[k]]$composite_signal), character(1)),
+      Program = vapply(sorted_keys, function(k) as.character(scores[[k]]$full_name), character(1)),
+      Composite = vapply(sorted_keys, function(k) round(safe_num(scores[[k]]$composite), 1), numeric(1)),
+      Demand = vapply(sorted_keys, function(k) round(safe_num(scores[[k]]$demand), 1), numeric(1)),
+      Institutional = vapply(sorted_keys, function(k) round(safe_num(scores[[k]]$institutional), 1), numeric(1)),
+      Financial = vapply(sorted_keys, function(k) round(safe_num(scores[[k]]$financial), 1), numeric(1)),
       stringsAsFactors = FALSE
     )
     rownames(df) <- NULL
