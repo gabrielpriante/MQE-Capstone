@@ -1,0 +1,7289 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-25T22:46:17.717092+00:00",
+    "pipeline_version": "2.2.0",
+    "data_vintage": "2024",
+    "projection_cycle": "2024-2034",
+    "programs_count": 9,
+    "scoring_version": "1.0.0"
+  },
+  "programs": {
+    "PROG_A": {
+      "key": "PROG_A",
+      "full_name": "Program Alpha",
+      "department": "DEPT_1",
+      "degree_level": "Master's",
+      "primary_soc": "99-1001",
+      "secondary_soc": null,
+      "projection": {
+        "soc_code": "99-1001",
+        "title": "Alpha practitioners",
+        "employment_2024": 200.5,
+        "employment_2034": 230.8,
+        "growth_numeric": 30.3,
+        "growth_percent": 15.1,
+        "annual_openings": 13.3,
+        "median_wage": 82000,
+        "typical_education": "Master's degree",
+        "work_experience": "None",
+        "on_the_job_training": "None",
+        "percent_self_employed": 5.1
+      },
+      "separation": {
+        "soc_code": "99-1001",
+        "title": "Alpha practitioners",
+        "employment_2024": 200.5,
+        "employment_2034": 230.8,
+        "growth_numeric": 30.3,
+        "growth_percent": 15.1,
+        "labor_force_exit_rate": 1.8,
+        "occupational_transfer_rate": 1.4,
+        "total_separation_rate": 3.2,
+        "labor_force_exits": 3.5,
+        "occupational_transfers": 2.9,
+        "total_separations": 6.4,
+        "annual_openings": 13.3
+      },
+      "education": {
+        "attainment": {
+          "soc_code": "99-1001",
+          "title": "Alpha practitioners",
+          "distribution": {
+            "Less than high school diploma": 1.7,
+            "High school diploma or equivalent": 2.0,
+            "Some college, no degree": 8.6,
+            "Associate's degree": 9.6,
+            "Bachelor's degree": 26.8,
+            "Master's degree": 28.1,
+            "Doctoral or professional degree": 14.6
+          },
+          "dominant_level": "Master's degree",
+          "dominant_percent": 28.1,
+          "graduate_percent": 42.7
+        },
+        "requirements": {
+          "soc_code": "99-1001",
+          "title": "Alpha practitioners",
+          "typical_education": "Master's degree",
+          "work_experience": "None",
+          "on_the_job_training": "None"
+        }
+      },
+      "skills": {
+        "ep_scores": {
+          "Adaptability": 4.0,
+          "Computers and information technology": 2.5,
+          "Creativity and innovation": 2.9,
+          "Critical and analytical thinking": 3.5,
+          "Customer service": 3.6,
+          "Detail oriented": 3.5,
+          "Fine motor": 2.8,
+          "Interpersonal": 3.3,
+          "Leadership": 3.1,
+          "Mathematics": 1.4,
+          "Mechanical": 1.7,
+          "Physical strength and stamina": 3.3,
+          "Problem solving and decision making": 3.2,
+          "Project management": 2.8,
+          "Science": 3.5,
+          "Speaking and listening": 3.3,
+          "Writing and reading": 2.8
+        },
+        "avg_intensity": 3.01,
+        "top_skills": [
+          [
+            "Adaptability",
+            4.0
+          ],
+          [
+            "Customer service",
+            3.6
+          ],
+          [
+            "Critical and analytical thinking",
+            3.5
+          ],
+          [
+            "Detail oriented",
+            3.5
+          ],
+          [
+            "Science",
+            3.5
+          ]
+        ],
+        "bottom_skills": [
+          [
+            "Mathematics",
+            1.4
+          ],
+          [
+            "Mechanical",
+            1.7
+          ],
+          [
+            "Computers and information technology",
+            2.5
+          ]
+        ]
+      },
+      "pa_wages": {
+        "pennsylvania": {
+          "area_code": "42",
+          "area_name": "Pennsylvania",
+          "naics": "62",
+          "naics_title": "Health Care and Social Assistance",
+          "industry_group": "sector",
+          "soc_code": "99-1001",
+          "title": "Alpha practitioners",
+          "employment": 2298,
+          "employment_rse": 2.6,
+          "pct_of_industry": 1.74,
+          "mean_wage": 79498,
+          "median_wage": 77940,
+          "wage_pct10": 50661,
+          "wage_pct25": 63910,
+          "wage_pct75": 89631,
+          "wage_pct90": 101322,
+          "hourly_mean": 38.22,
+          "hourly_median": 37.47
+        },
+        "state_count": 52,
+        "pa_wage_rank": 34,
+        "pa_subindustries": []
+      },
+      "enrollment": {
+        "et_series": {
+          "years": [
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "headcount": [
+            120,
+            125,
+            130,
+            128,
+            135,
+            68,
+            68,
+            68,
+            68,
+            68
+          ],
+          "fte": [
+            120.0,
+            125.0,
+            130.0,
+            128.0,
+            135.0,
+            68.0,
+            68.0,
+            68.0,
+            68.0,
+            68.0
+          ],
+          "tuition": [
+            1630455,
+            1532588,
+            1918351,
+            1631866,
+            2367059,
+            848150,
+            935617,
+            1072485,
+            1177264,
+            963547
+          ],
+          "in_state": [
+            22,
+            20,
+            36,
+            38,
+            46,
+            21,
+            21,
+            15,
+            16,
+            21
+          ],
+          "out_of_state": [
+            81,
+            90,
+            101,
+            101,
+            106,
+            45,
+            52,
+            51,
+            47,
+            50
+          ]
+        },
+        "gross_tuition": {
+          "ay_labels": [
+            "AY21",
+            "AY22",
+            "AY23",
+            "AY24",
+            "AY25",
+            "AY26",
+            "AY27",
+            "AY28",
+            "AY29",
+            "AY30"
+          ],
+          "enrollment": [
+            68,
+            68,
+            68,
+            68,
+            68,
+            72,
+            75,
+            78,
+            80,
+            82
+          ],
+          "revenue": [
+            2200000,
+            2350000,
+            2400000,
+            2500000,
+            2450000,
+            2600000,
+            2700000,
+            2800000,
+            2900000,
+            3000000
+          ],
+          "revenue_per_student": [
+            32353,
+            34559,
+            35294,
+            36765,
+            36029,
+            36111,
+            36000,
+            35897,
+            36250,
+            36585
+          ]
+        }
+      },
+      "admissions": {
+        "years": [
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "annual": {
+          "2021": {
+            "terms": {
+              "Fall": {
+                "applied": 702,
+                "admitted": 453,
+                "enrolled": 200
+              }
+            },
+            "total_applied": 702,
+            "total_admitted": 453,
+            "total_enrolled": 200,
+            "selectivity_pct": 64.5,
+            "yield_pct": 44.2
+          },
+          "2022": {
+            "terms": {
+              "Fall": {
+                "applied": 599,
+                "admitted": 313,
+                "enrolled": 157
+              }
+            },
+            "total_applied": 599,
+            "total_admitted": 313,
+            "total_enrolled": 157,
+            "selectivity_pct": 52.3,
+            "yield_pct": 50.2
+          },
+          "2023": {
+            "terms": {
+              "Fall": {
+                "applied": 264,
+                "admitted": 90,
+                "enrolled": 23
+              }
+            },
+            "total_applied": 264,
+            "total_admitted": 90,
+            "total_enrolled": 23,
+            "selectivity_pct": 34.1,
+            "yield_pct": 25.6
+          },
+          "2024": {
+            "terms": {
+              "Fall": {
+                "applied": 796,
+                "admitted": 326,
+                "enrolled": 87
+              }
+            },
+            "total_applied": 796,
+            "total_admitted": 326,
+            "total_enrolled": 87,
+            "selectivity_pct": 41.0,
+            "yield_pct": 26.7
+          }
+        }
+      },
+      "financials": {
+        "gross_tuition": 2450000,
+        "adjusted_tuition": 1531250,
+        "total_compensation": 980000,
+        "total_expenses": 1400000,
+        "net_income": 1050000,
+        "overhead": 620000,
+        "department": "DEPT_1",
+        "source_file": "DEPT_1_program.xlsx"
+      },
+      "retention": {
+        "cohort_data": [
+          {
+            "plan_code": "PROG_A-PLAN",
+            "first_enrolled_term": "2211",
+            "compare_term": "2221",
+            "retained": 54,
+            "not_retained": 2,
+            "total": 56,
+            "retention_pct": 96.4
+          },
+          {
+            "plan_code": "PROG_A-PLAN",
+            "first_enrolled_term": "2221",
+            "compare_term": "2231",
+            "retained": 35,
+            "not_retained": 5,
+            "total": 40,
+            "retention_pct": 87.5
+          },
+          {
+            "plan_code": "PROG_A-PLAN",
+            "first_enrolled_term": "2231",
+            "compare_term": "2241",
+            "retained": 46,
+            "not_retained": 5,
+            "total": 51,
+            "retention_pct": 90.2
+          },
+          {
+            "plan_code": "PROG_A-PLAN",
+            "first_enrolled_term": "2241",
+            "compare_term": "2251",
+            "retained": 56,
+            "not_retained": 5,
+            "total": 61,
+            "retention_pct": 91.8
+          },
+          {
+            "plan_code": "PROG_A-PLAN",
+            "first_enrolled_term": "2251",
+            "compare_term": "2261",
+            "retained": 31,
+            "not_retained": 5,
+            "total": 36,
+            "retention_pct": 86.1
+          }
+        ]
+      },
+      "faculty": {
+        "department": "DEPT_1",
+        "department_total_faculty": 42,
+        "department_ft_faculty": 18,
+        "department_pt_faculty": 24,
+        "department_tenure_track": 8,
+        "sharing_note": "DEPT_1 faculty serve Alpha and Beta",
+        "programs_sharing": [
+          "PROG_A",
+          "PROG_B"
+        ]
+      },
+      "outcomes": {},
+      "peers": {
+        "competitors": [
+          {
+            "school": "Westlake State University",
+            "tier": "national",
+            "raw_label": "Westlake State University (national)"
+          },
+          {
+            "school": "Capital City University",
+            "tier": "national",
+            "raw_label": "Capital City University (national)"
+          },
+          {
+            "school": "Great Lakes University",
+            "tier": "national",
+            "raw_label": "Great Lakes University (national)"
+          },
+          {
+            "school": "Pacific Coast University",
+            "tier": "national",
+            "raw_label": "Pacific Coast University (national)"
+          },
+          {
+            "school": "Crossroads University",
+            "tier": "regional",
+            "raw_label": "Crossroads University (regional)"
+          },
+          {
+            "school": "Brookfield University",
+            "tier": "regional",
+            "raw_label": "Brookfield University (regional)"
+          },
+          {
+            "school": "Hillcrest University",
+            "tier": "regional",
+            "raw_label": "Hillcrest University (regional)"
+          },
+          {
+            "school": "Summit University",
+            "tier": "regional",
+            "raw_label": "Summit University (regional)"
+          },
+          {
+            "school": "Clarkton University",
+            "tier": "local",
+            "raw_label": "Clarkton University (local)"
+          },
+          {
+            "school": "Ironbridge University",
+            "tier": "local",
+            "raw_label": "Ironbridge University (local)"
+          },
+          {
+            "school": "Oakwood University",
+            "tier": "local",
+            "raw_label": "Oakwood University (local)"
+          }
+        ]
+      },
+      "ipeds": {
+        "national_completions": {
+          "2017-18": 2600,
+          "2018-19": 2700,
+          "2019-20": 2850,
+          "2020-21": 2780,
+          "2021-22": 3030,
+          "2022-23": 2990,
+          "2023-24": 2890
+        },
+        "pitt_completions": {
+          "2017-18": 42,
+          "2018-19": 45,
+          "2019-20": 48,
+          "2020-21": 44,
+          "2021-22": 50,
+          "2022-23": 47,
+          "2023-24": 46
+        },
+        "pa_competitors": [
+          {
+            "unitid": "900004",
+            "school": "Brookfield University",
+            "city": "Allentown",
+            "state": "PA",
+            "control": "2",
+            "awards": 213,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 1
+          },
+          {
+            "unitid": "900001",
+            "school": "Ridgeview University",
+            "city": "Philadelphia",
+            "state": "PA",
+            "control": "2",
+            "awards": 150,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 2
+          },
+          {
+            "unitid": "900002",
+            "school": "Valley Forge University",
+            "city": "Erie",
+            "state": "PA",
+            "control": "2",
+            "awards": 146,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 3
+          },
+          {
+            "unitid": "215293",
+            "school": "University of Pittsburgh-Pittsburgh Campus",
+            "city": "Pittsburgh",
+            "state": "PA",
+            "control": "1",
+            "awards": 46,
+            "is_pitt": true,
+            "year": "2023-24",
+            "pa_rank": 4
+          },
+          {
+            "unitid": "900003",
+            "school": "Hillcrest University",
+            "city": "Harrisburg",
+            "state": "PA",
+            "control": "2",
+            "awards": 43,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 5
+          }
+        ]
+      },
+      "ranking": {
+        "ranked": true,
+        "us_news_category": "Program Alpha Studies",
+        "pitt_rank": 6,
+        "pitt_rank_tied": true,
+        "total_programs_ranked": 295,
+        "previous_rank": 8,
+        "previous_edition": "2025",
+        "top_10": [
+          {
+            "rank": 1,
+            "school": "Heartland University",
+            "tied": false
+          },
+          {
+            "rank": 2,
+            "school": "Capital City University",
+            "tied": false
+          },
+          {
+            "rank": 3,
+            "school": "Riverdale University",
+            "tied": true
+          },
+          {
+            "rank": 3,
+            "school": "Westlake State University",
+            "tied": true
+          },
+          {
+            "rank": 5,
+            "school": "Northfield University",
+            "tied": false
+          },
+          {
+            "rank": 6,
+            "school": "University of Pittsburgh",
+            "tied": true
+          },
+          {
+            "rank": 6,
+            "school": "Prairie State University",
+            "tied": true
+          },
+          {
+            "rank": 8,
+            "school": "Great Lakes University",
+            "tied": false
+          },
+          {
+            "rank": 9,
+            "school": "Sunbelt University",
+            "tied": false
+          },
+          {
+            "rank": 10,
+            "school": "Mountain View University",
+            "tied": false
+          }
+        ]
+      }
+    },
+    "PROG_B": {
+      "key": "PROG_B",
+      "full_name": "Program Beta",
+      "department": "DEPT_1",
+      "degree_level": "Doctorate",
+      "primary_soc": "99-1002",
+      "secondary_soc": null,
+      "projection": {
+        "soc_code": "99-1002",
+        "title": "Beta specialists",
+        "employment_2024": 120.3,
+        "employment_2034": 131.7,
+        "growth_numeric": 11.4,
+        "growth_percent": 9.5,
+        "annual_openings": 0.7,
+        "median_wage": 93000,
+        "typical_education": "Doctoral or professional degree",
+        "work_experience": "None",
+        "on_the_job_training": "None",
+        "percent_self_employed": 1.8
+      },
+      "separation": {
+        "soc_code": "99-1002",
+        "title": "Beta specialists",
+        "employment_2024": 120.3,
+        "employment_2034": 131.7,
+        "growth_numeric": 11.4,
+        "growth_percent": 9.5,
+        "labor_force_exit_rate": 1.2,
+        "occupational_transfer_rate": 0.9,
+        "total_separation_rate": 2.1,
+        "labor_force_exits": 1.4,
+        "occupational_transfers": 1.1,
+        "total_separations": 2.5,
+        "annual_openings": 0.7
+      },
+      "education": {
+        "attainment": {
+          "soc_code": "99-1002",
+          "title": "Beta specialists",
+          "distribution": {
+            "Less than high school diploma": 0.5,
+            "High school diploma or equivalent": 1.2,
+            "Some college, no degree": 2.4,
+            "Associate's degree": 3.7,
+            "Bachelor's degree": 19.0,
+            "Master's degree": 18.5,
+            "Doctoral or professional degree": 43.6
+          },
+          "dominant_level": "Doctoral or professional degree",
+          "dominant_percent": 43.6,
+          "graduate_percent": 62.1
+        },
+        "requirements": {
+          "soc_code": "99-1002",
+          "title": "Beta specialists",
+          "typical_education": "Doctoral or professional degree",
+          "work_experience": "None",
+          "on_the_job_training": "None"
+        }
+      },
+      "skills": {
+        "ep_scores": {
+          "Adaptability": 3.3,
+          "Computers and information technology": 2.7,
+          "Creativity and innovation": 3.4,
+          "Critical and analytical thinking": 4.2,
+          "Customer service": 3.1,
+          "Detail oriented": 2.6,
+          "Fine motor": 2.0,
+          "Interpersonal": 4.5,
+          "Leadership": 3.3,
+          "Mathematics": 3.0,
+          "Mechanical": 2.8,
+          "Physical strength and stamina": 2.5,
+          "Problem solving and decision making": 4.1,
+          "Project management": 3.5,
+          "Science": 3.3,
+          "Speaking and listening": 2.9,
+          "Writing and reading": 3.5
+        },
+        "avg_intensity": 3.22,
+        "top_skills": [
+          [
+            "Interpersonal",
+            4.5
+          ],
+          [
+            "Critical and analytical thinking",
+            4.2
+          ],
+          [
+            "Problem solving and decision making",
+            4.1
+          ],
+          [
+            "Project management",
+            3.5
+          ],
+          [
+            "Writing and reading",
+            3.5
+          ]
+        ],
+        "bottom_skills": [
+          [
+            "Fine motor",
+            2.0
+          ],
+          [
+            "Physical strength and stamina",
+            2.5
+          ],
+          [
+            "Detail oriented",
+            2.6
+          ]
+        ]
+      },
+      "pa_wages": {
+        "pennsylvania": {
+          "area_code": "42",
+          "area_name": "Pennsylvania",
+          "naics": "62",
+          "naics_title": "Health Care and Social Assistance",
+          "industry_group": "sector",
+          "soc_code": "99-1002",
+          "title": "Beta specialists",
+          "employment": 13187,
+          "employment_rse": 3.8,
+          "pct_of_industry": 1.39,
+          "mean_wage": 98359,
+          "median_wage": 96431,
+          "wage_pct10": 62680,
+          "wage_pct25": 79073,
+          "wage_pct75": 110895,
+          "wage_pct90": 125360,
+          "hourly_mean": 47.29,
+          "hourly_median": 46.36
+        },
+        "state_count": 52,
+        "pa_wage_rank": 34,
+        "pa_subindustries": []
+      },
+      "enrollment": {
+        "et_series": {
+          "years": [
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "headcount": [
+            45,
+            48,
+            50,
+            52,
+            50,
+            26,
+            29,
+            29,
+            29,
+            29
+          ],
+          "fte": [
+            45.0,
+            48.0,
+            50.0,
+            52.0,
+            50.0,
+            26.0,
+            29.0,
+            29.0,
+            29.0,
+            29.0
+          ],
+          "tuition": [
+            593706,
+            683687,
+            648465,
+            921492,
+            876730,
+            455285,
+            452216,
+            433017,
+            367465,
+            411159
+          ],
+          "in_state": [
+            15,
+            14,
+            9,
+            10,
+            13,
+            4,
+            8,
+            9,
+            10,
+            7
+          ],
+          "out_of_state": [
+            30,
+            37,
+            41,
+            35,
+            37,
+            20,
+            24,
+            24,
+            23,
+            22
+          ]
+        },
+        "gross_tuition": {
+          "ay_labels": [
+            "AY21",
+            "AY22",
+            "AY23",
+            "AY24",
+            "AY25",
+            "AY26",
+            "AY27",
+            "AY28",
+            "AY29",
+            "AY30"
+          ],
+          "enrollment": [
+            26,
+            29,
+            29,
+            29,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "revenue": [
+            950000,
+            1050000,
+            1100000,
+            1150000,
+            1200000,
+            1250000,
+            1300000,
+            1350000,
+            1400000,
+            1450000
+          ],
+          "revenue_per_student": [
+            36538,
+            36207,
+            37931,
+            39655,
+            41379,
+            41667,
+            41935,
+            42188,
+            42424,
+            42647
+          ]
+        }
+      },
+      "admissions": {
+        "years": [
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "annual": {
+          "2021": {
+            "terms": {
+              "Fall": {
+                "applied": 788,
+                "admitted": 322,
+                "enrolled": 145
+              }
+            },
+            "total_applied": 788,
+            "total_admitted": 322,
+            "total_enrolled": 145,
+            "selectivity_pct": 40.9,
+            "yield_pct": 45.0
+          },
+          "2022": {
+            "terms": {
+              "Fall": {
+                "applied": 914,
+                "admitted": 388,
+                "enrolled": 157
+              }
+            },
+            "total_applied": 914,
+            "total_admitted": 388,
+            "total_enrolled": 157,
+            "selectivity_pct": 42.5,
+            "yield_pct": 40.5
+          },
+          "2023": {
+            "terms": {
+              "Fall": {
+                "applied": 397,
+                "admitted": 138,
+                "enrolled": 37
+              }
+            },
+            "total_applied": 397,
+            "total_admitted": 138,
+            "total_enrolled": 37,
+            "selectivity_pct": 34.8,
+            "yield_pct": 26.8
+          },
+          "2024": {
+            "terms": {
+              "Fall": {
+                "applied": 193,
+                "admitted": 93,
+                "enrolled": 29
+              }
+            },
+            "total_applied": 193,
+            "total_admitted": 93,
+            "total_enrolled": 29,
+            "selectivity_pct": 48.2,
+            "yield_pct": 31.2
+          }
+        }
+      },
+      "financials": {
+        "gross_tuition": 1200000,
+        "adjusted_tuition": 750000,
+        "total_compensation": 520000,
+        "total_expenses": 780000,
+        "net_income": 420000,
+        "overhead": 350000,
+        "department": "DEPT_1",
+        "source_file": "DEPT_1_program.xlsx"
+      },
+      "retention": {
+        "cohort_data": [
+          {
+            "plan_code": "PROG_B-PLAN",
+            "first_enrolled_term": "2211",
+            "compare_term": "2221",
+            "retained": 28,
+            "not_retained": 6,
+            "total": 34,
+            "retention_pct": 82.4
+          },
+          {
+            "plan_code": "PROG_B-PLAN",
+            "first_enrolled_term": "2221",
+            "compare_term": "2231",
+            "retained": 61,
+            "not_retained": 4,
+            "total": 65,
+            "retention_pct": 93.8
+          },
+          {
+            "plan_code": "PROG_B-PLAN",
+            "first_enrolled_term": "2231",
+            "compare_term": "2241",
+            "retained": 29,
+            "not_retained": 5,
+            "total": 34,
+            "retention_pct": 85.3
+          },
+          {
+            "plan_code": "PROG_B-PLAN",
+            "first_enrolled_term": "2241",
+            "compare_term": "2251",
+            "retained": 21,
+            "not_retained": 1,
+            "total": 22,
+            "retention_pct": 95.5
+          },
+          {
+            "plan_code": "PROG_B-PLAN",
+            "first_enrolled_term": "2251",
+            "compare_term": "2261",
+            "retained": 22,
+            "not_retained": 2,
+            "total": 24,
+            "retention_pct": 91.7
+          }
+        ]
+      },
+      "faculty": {
+        "department": "DEPT_1",
+        "department_total_faculty": 42,
+        "department_ft_faculty": 18,
+        "department_pt_faculty": 24,
+        "department_tenure_track": 8,
+        "sharing_note": "DEPT_1 faculty serve Alpha and Beta",
+        "programs_sharing": [
+          "PROG_A",
+          "PROG_B"
+        ]
+      },
+      "outcomes": {},
+      "peers": {
+        "competitors": [
+          {
+            "school": "Pacific Coast University",
+            "tier": "national",
+            "raw_label": "Pacific Coast University (national)"
+          },
+          {
+            "school": "Westlake State University",
+            "tier": "national",
+            "raw_label": "Westlake State University (national)"
+          },
+          {
+            "school": "Riverdale University",
+            "tier": "national",
+            "raw_label": "Riverdale University (national)"
+          },
+          {
+            "school": "Heartland University",
+            "tier": "national",
+            "raw_label": "Heartland University (national)"
+          },
+          {
+            "school": "Brookfield University",
+            "tier": "regional",
+            "raw_label": "Brookfield University (regional)"
+          },
+          {
+            "school": "Ridgeview University",
+            "tier": "regional",
+            "raw_label": "Ridgeview University (regional)"
+          },
+          {
+            "school": "Summit University",
+            "tier": "regional",
+            "raw_label": "Summit University (regional)"
+          },
+          {
+            "school": "Hillcrest University",
+            "tier": "regional",
+            "raw_label": "Hillcrest University (regional)"
+          },
+          {
+            "school": "Ironbridge University",
+            "tier": "local",
+            "raw_label": "Ironbridge University (local)"
+          },
+          {
+            "school": "Mapleton University",
+            "tier": "local",
+            "raw_label": "Mapleton University (local)"
+          },
+          {
+            "school": "Fairview University",
+            "tier": "local",
+            "raw_label": "Fairview University (local)"
+          }
+        ]
+      },
+      "ipeds": {
+        "national_completions": {
+          "2017-18": 630,
+          "2018-19": 670,
+          "2019-20": 690,
+          "2020-21": 620,
+          "2021-22": 580,
+          "2022-23": 625,
+          "2023-24": 610
+        },
+        "pitt_completions": {
+          "2017-18": 8,
+          "2018-19": 9,
+          "2019-20": 10,
+          "2020-21": 9,
+          "2021-22": 11,
+          "2022-23": 10,
+          "2023-24": 10
+        },
+        "pa_competitors": [
+          {
+            "unitid": "900004",
+            "school": "Brookfield University",
+            "city": "Allentown",
+            "state": "PA",
+            "control": "2",
+            "awards": 188,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 1
+          },
+          {
+            "unitid": "900001",
+            "school": "Ridgeview University",
+            "city": "Philadelphia",
+            "state": "PA",
+            "control": "2",
+            "awards": 68,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 2
+          },
+          {
+            "unitid": "900002",
+            "school": "Valley Forge University",
+            "city": "Erie",
+            "state": "PA",
+            "control": "2",
+            "awards": 44,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 3
+          },
+          {
+            "unitid": "900003",
+            "school": "Hillcrest University",
+            "city": "Harrisburg",
+            "state": "PA",
+            "control": "2",
+            "awards": 44,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 4
+          },
+          {
+            "unitid": "215293",
+            "school": "University of Pittsburgh-Pittsburgh Campus",
+            "city": "Pittsburgh",
+            "state": "PA",
+            "control": "1",
+            "awards": 10,
+            "is_pitt": true,
+            "year": "2023-24",
+            "pa_rank": 5
+          }
+        ]
+      },
+      "ranking": {
+        "ranked": true,
+        "us_news_category": "Program Beta Studies",
+        "pitt_rank": 6,
+        "pitt_rank_tied": true,
+        "total_programs_ranked": 80,
+        "previous_rank": 7,
+        "previous_edition": "2025",
+        "top_10": [
+          {
+            "rank": 1,
+            "school": "Heartland University",
+            "tied": false
+          },
+          {
+            "rank": 2,
+            "school": "Riverdale University",
+            "tied": false
+          },
+          {
+            "rank": 3,
+            "school": "Pacific Coast University",
+            "tied": false
+          },
+          {
+            "rank": 4,
+            "school": "Great Lakes University",
+            "tied": true
+          },
+          {
+            "rank": 4,
+            "school": "Midlands University",
+            "tied": true
+          },
+          {
+            "rank": 6,
+            "school": "University of Pittsburgh",
+            "tied": true
+          },
+          {
+            "rank": 6,
+            "school": "Sunbelt University",
+            "tied": true
+          },
+          {
+            "rank": 8,
+            "school": "Capital City University",
+            "tied": false
+          },
+          {
+            "rank": 9,
+            "school": "Lakeshore University",
+            "tied": false
+          },
+          {
+            "rank": 10,
+            "school": "Prairie State University",
+            "tied": false
+          }
+        ]
+      }
+    },
+    "PROG_C": {
+      "key": "PROG_C",
+      "full_name": "Program Gamma",
+      "department": "DEPT_2",
+      "degree_level": "Master's",
+      "primary_soc": "99-1003",
+      "secondary_soc": null,
+      "projection": {
+        "soc_code": "99-1003",
+        "title": "Gamma counselors",
+        "employment_2024": 75.8,
+        "employment_2034": 79.4,
+        "growth_numeric": 3.6,
+        "growth_percent": 4.7,
+        "annual_openings": 5.4,
+        "median_wage": 68000,
+        "typical_education": "Master's degree",
+        "work_experience": "None",
+        "on_the_job_training": "None",
+        "percent_self_employed": 4.1
+      },
+      "separation": {
+        "soc_code": "99-1003",
+        "title": "Gamma counselors",
+        "employment_2024": 75.8,
+        "employment_2034": 79.4,
+        "growth_numeric": 3.6,
+        "growth_percent": 4.7,
+        "labor_force_exit_rate": 3.2,
+        "occupational_transfer_rate": 2.6,
+        "total_separation_rate": 5.8,
+        "labor_force_exits": 2.4,
+        "occupational_transfers": 2.0,
+        "total_separations": 4.4,
+        "annual_openings": 5.4
+      },
+      "education": {
+        "attainment": {
+          "soc_code": "99-1003",
+          "title": "Gamma counselors",
+          "distribution": {
+            "Less than high school diploma": 1.8,
+            "High school diploma or equivalent": 5.3,
+            "Some college, no degree": 3.4,
+            "Associate's degree": 12.0,
+            "Bachelor's degree": 36.7,
+            "Master's degree": 44.4,
+            "Doctoral or professional degree": 14.3
+          },
+          "dominant_level": "Master's degree",
+          "dominant_percent": 44.4,
+          "graduate_percent": 58.7
+        },
+        "requirements": {
+          "soc_code": "99-1003",
+          "title": "Gamma counselors",
+          "typical_education": "Master's degree",
+          "work_experience": "None",
+          "on_the_job_training": "None"
+        }
+      },
+      "skills": {
+        "ep_scores": {
+          "Adaptability": 3.8,
+          "Computers and information technology": 3.1,
+          "Creativity and innovation": 3.2,
+          "Critical and analytical thinking": 4.1,
+          "Customer service": 3.5,
+          "Detail oriented": 4.0,
+          "Fine motor": 1.6,
+          "Interpersonal": 3.7,
+          "Leadership": 3.0,
+          "Mathematics": 2.8,
+          "Mechanical": 1.8,
+          "Physical strength and stamina": 2.8,
+          "Problem solving and decision making": 3.8,
+          "Project management": 3.1,
+          "Science": 2.9,
+          "Speaking and listening": 2.9,
+          "Writing and reading": 3.9
+        },
+        "avg_intensity": 3.18,
+        "top_skills": [
+          [
+            "Critical and analytical thinking",
+            4.1
+          ],
+          [
+            "Detail oriented",
+            4.0
+          ],
+          [
+            "Writing and reading",
+            3.9
+          ],
+          [
+            "Adaptability",
+            3.8
+          ],
+          [
+            "Problem solving and decision making",
+            3.8
+          ]
+        ],
+        "bottom_skills": [
+          [
+            "Fine motor",
+            1.6
+          ],
+          [
+            "Mechanical",
+            1.8
+          ],
+          [
+            "Mathematics",
+            2.8
+          ]
+        ]
+      },
+      "pa_wages": {
+        "pennsylvania": {
+          "area_code": "42",
+          "area_name": "Pennsylvania",
+          "naics": "62",
+          "naics_title": "Health Care and Social Assistance",
+          "industry_group": "sector",
+          "soc_code": "99-1003",
+          "title": "Gamma counselors",
+          "employment": 3328,
+          "employment_rse": 4.9,
+          "pct_of_industry": 0.66,
+          "mean_wage": 71253,
+          "median_wage": 69856,
+          "wage_pct10": 45406,
+          "wage_pct25": 57281,
+          "wage_pct75": 80334,
+          "wage_pct90": 90812,
+          "hourly_mean": 34.26,
+          "hourly_median": 33.58
+        },
+        "state_count": 52,
+        "pa_wage_rank": 27,
+        "pa_subindustries": []
+      },
+      "enrollment": {
+        "et_series": {
+          "years": [
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "headcount": [
+            80,
+            78,
+            72,
+            68,
+            60,
+            42,
+            35,
+            28,
+            21,
+            21
+          ],
+          "fte": [
+            80.0,
+            78.0,
+            72.0,
+            68.0,
+            60.0,
+            42.0,
+            35.0,
+            28.0,
+            21.0,
+            21.0
+          ],
+          "tuition": [
+            1393173,
+            1013050,
+            864931,
+            975292,
+            1053547,
+            701853,
+            479902,
+            453027,
+            344044,
+            350704
+          ],
+          "in_state": [
+            22,
+            19,
+            13,
+            13,
+            9,
+            12,
+            5,
+            5,
+            3,
+            5
+          ],
+          "out_of_state": [
+            66,
+            58,
+            47,
+            51,
+            49,
+            27,
+            23,
+            23,
+            15,
+            17
+          ]
+        },
+        "gross_tuition": {
+          "ay_labels": [
+            "AY21",
+            "AY22",
+            "AY23",
+            "AY24",
+            "AY25",
+            "AY26",
+            "AY27",
+            "AY28",
+            "AY29",
+            "AY30"
+          ],
+          "enrollment": [
+            42,
+            35,
+            28,
+            21,
+            21,
+            20,
+            19,
+            18,
+            17,
+            16
+          ],
+          "revenue": [
+            1400000,
+            1200000,
+            980000,
+            750000,
+            700000,
+            650000,
+            600000,
+            550000,
+            500000,
+            450000
+          ],
+          "revenue_per_student": [
+            33333,
+            34286,
+            35000,
+            35714,
+            33333,
+            32500,
+            31579,
+            30556,
+            29412,
+            28125
+          ]
+        }
+      },
+      "admissions": {
+        "years": [
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "annual": {
+          "2021": {
+            "terms": {
+              "Fall": {
+                "applied": 654,
+                "admitted": 314,
+                "enrolled": 82
+              }
+            },
+            "total_applied": 654,
+            "total_admitted": 314,
+            "total_enrolled": 82,
+            "selectivity_pct": 48.0,
+            "yield_pct": 26.1
+          },
+          "2022": {
+            "terms": {
+              "Fall": {
+                "applied": 317,
+                "admitted": 132,
+                "enrolled": 56
+              }
+            },
+            "total_applied": 317,
+            "total_admitted": 132,
+            "total_enrolled": 56,
+            "selectivity_pct": 41.6,
+            "yield_pct": 42.4
+          },
+          "2023": {
+            "terms": {
+              "Fall": {
+                "applied": 797,
+                "admitted": 497,
+                "enrolled": 154
+              }
+            },
+            "total_applied": 797,
+            "total_admitted": 497,
+            "total_enrolled": 154,
+            "selectivity_pct": 62.4,
+            "yield_pct": 31.0
+          },
+          "2024": {
+            "terms": {
+              "Fall": {
+                "applied": 793,
+                "admitted": 273,
+                "enrolled": 100
+              }
+            },
+            "total_applied": 793,
+            "total_admitted": 273,
+            "total_enrolled": 100,
+            "selectivity_pct": 34.4,
+            "yield_pct": 36.6
+          }
+        }
+      },
+      "financials": {
+        "gross_tuition": 700000,
+        "adjusted_tuition": 437500,
+        "total_compensation": 380000,
+        "total_expenses": 620000,
+        "net_income": 80000,
+        "overhead": 280000,
+        "department": "DEPT_2",
+        "source_file": "DEPT_2_program.xlsx"
+      },
+      "retention": {
+        "cohort_data": [
+          {
+            "plan_code": "PROG_C-PLAN",
+            "first_enrolled_term": "2211",
+            "compare_term": "2221",
+            "retained": 58,
+            "not_retained": 4,
+            "total": 62,
+            "retention_pct": 93.5
+          },
+          {
+            "plan_code": "PROG_C-PLAN",
+            "first_enrolled_term": "2221",
+            "compare_term": "2231",
+            "retained": 43,
+            "not_retained": 6,
+            "total": 49,
+            "retention_pct": 87.8
+          },
+          {
+            "plan_code": "PROG_C-PLAN",
+            "first_enrolled_term": "2231",
+            "compare_term": "2241",
+            "retained": 20,
+            "not_retained": 4,
+            "total": 24,
+            "retention_pct": 83.3
+          },
+          {
+            "plan_code": "PROG_C-PLAN",
+            "first_enrolled_term": "2241",
+            "compare_term": "2251",
+            "retained": 58,
+            "not_retained": 1,
+            "total": 59,
+            "retention_pct": 98.3
+          },
+          {
+            "plan_code": "PROG_C-PLAN",
+            "first_enrolled_term": "2251",
+            "compare_term": "2261",
+            "retained": 22,
+            "not_retained": 4,
+            "total": 26,
+            "retention_pct": 84.6
+          }
+        ]
+      },
+      "faculty": {
+        "department": "DEPT_2",
+        "department_total_faculty": 28,
+        "department_ft_faculty": 12,
+        "department_pt_faculty": 16,
+        "department_tenure_track": 5,
+        "sharing_note": "DEPT_2 faculty serve Gamma and Delta",
+        "programs_sharing": [
+          "PROG_C",
+          "PROG_D"
+        ]
+      },
+      "outcomes": {},
+      "peers": {
+        "competitors": [
+          {
+            "school": "Heartland University",
+            "tier": "national",
+            "raw_label": "Heartland University (national)"
+          },
+          {
+            "school": "Capital City University",
+            "tier": "national",
+            "raw_label": "Capital City University (national)"
+          },
+          {
+            "school": "Pacific Coast University",
+            "tier": "national",
+            "raw_label": "Pacific Coast University (national)"
+          },
+          {
+            "school": "Great Lakes University",
+            "tier": "national",
+            "raw_label": "Great Lakes University (national)"
+          },
+          {
+            "school": "Valley Forge University",
+            "tier": "regional",
+            "raw_label": "Valley Forge University (regional)"
+          },
+          {
+            "school": "Lakeshore University",
+            "tier": "regional",
+            "raw_label": "Lakeshore University (regional)"
+          },
+          {
+            "school": "Ridgeview University",
+            "tier": "regional",
+            "raw_label": "Ridgeview University (regional)"
+          },
+          {
+            "school": "Summit University",
+            "tier": "regional",
+            "raw_label": "Summit University (regional)"
+          },
+          {
+            "school": "Clarkton University",
+            "tier": "local",
+            "raw_label": "Clarkton University (local)"
+          },
+          {
+            "school": "Ironbridge University",
+            "tier": "local",
+            "raw_label": "Ironbridge University (local)"
+          },
+          {
+            "school": "Mapleton University",
+            "tier": "local",
+            "raw_label": "Mapleton University (local)"
+          }
+        ]
+      },
+      "ipeds": {
+        "national_completions": {
+          "2017-18": 3100,
+          "2018-19": 3050,
+          "2019-20": 2900,
+          "2020-21": 2800,
+          "2021-22": 2750,
+          "2022-23": 2700,
+          "2023-24": 2650
+        },
+        "pitt_completions": {
+          "2017-18": 18,
+          "2018-19": 16,
+          "2019-20": 14,
+          "2020-21": 12,
+          "2021-22": 10,
+          "2022-23": 9,
+          "2023-24": 8
+        },
+        "pa_competitors": [
+          {
+            "unitid": "900001",
+            "school": "Ridgeview University",
+            "city": "Philadelphia",
+            "state": "PA",
+            "control": "2",
+            "awards": 233,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 1
+          },
+          {
+            "unitid": "900003",
+            "school": "Hillcrest University",
+            "city": "Harrisburg",
+            "state": "PA",
+            "control": "2",
+            "awards": 200,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 2
+          },
+          {
+            "unitid": "900002",
+            "school": "Valley Forge University",
+            "city": "Erie",
+            "state": "PA",
+            "control": "2",
+            "awards": 159,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 3
+          },
+          {
+            "unitid": "900004",
+            "school": "Brookfield University",
+            "city": "Allentown",
+            "state": "PA",
+            "control": "2",
+            "awards": 97,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 4
+          },
+          {
+            "unitid": "215293",
+            "school": "University of Pittsburgh-Pittsburgh Campus",
+            "city": "Pittsburgh",
+            "state": "PA",
+            "control": "1",
+            "awards": 8,
+            "is_pitt": true,
+            "year": "2023-24",
+            "pa_rank": 5
+          }
+        ]
+      },
+      "ranking": {
+        "ranked": false,
+        "us_news_category": null,
+        "pitt_rank": null,
+        "pitt_rank_tied": false,
+        "total_programs_ranked": null,
+        "previous_rank": null,
+        "previous_edition": null,
+        "top_10": []
+      }
+    },
+    "PROG_D": {
+      "key": "PROG_D",
+      "full_name": "Program Delta",
+      "department": "DEPT_2",
+      "degree_level": "Master's",
+      "primary_soc": "99-1004",
+      "secondary_soc": null,
+      "projection": {
+        "soc_code": "99-1004",
+        "title": "Delta trainers",
+        "employment_2024": 35.2,
+        "employment_2034": 37.1,
+        "growth_numeric": 1.9,
+        "growth_percent": 5.4,
+        "annual_openings": 3.8,
+        "median_wage": 58000,
+        "typical_education": "Master's degree",
+        "work_experience": "None",
+        "on_the_job_training": "Internship/residency",
+        "percent_self_employed": 2.8
+      },
+      "separation": {
+        "soc_code": "99-1004",
+        "title": "Delta trainers",
+        "employment_2024": 35.2,
+        "employment_2034": 37.1,
+        "growth_numeric": 1.9,
+        "growth_percent": 5.4,
+        "labor_force_exit_rate": 4.5,
+        "occupational_transfer_rate": 3.7,
+        "total_separation_rate": 8.2,
+        "labor_force_exits": 1.6,
+        "occupational_transfers": 1.3,
+        "total_separations": 2.9,
+        "annual_openings": 3.8
+      },
+      "education": {
+        "attainment": {
+          "soc_code": "99-1004",
+          "title": "Delta trainers",
+          "distribution": {
+            "Less than high school diploma": 1.2,
+            "High school diploma or equivalent": 7.4,
+            "Some college, no degree": 8.9,
+            "Associate's degree": 4.7,
+            "Bachelor's degree": 28.5,
+            "Master's degree": 30.5,
+            "Doctoral or professional degree": 5.0
+          },
+          "dominant_level": "Master's degree",
+          "dominant_percent": 30.5,
+          "graduate_percent": 35.5
+        },
+        "requirements": {
+          "soc_code": "99-1004",
+          "title": "Delta trainers",
+          "typical_education": "Master's degree",
+          "work_experience": "None",
+          "on_the_job_training": "Internship/residency"
+        }
+      },
+      "skills": {
+        "ep_scores": {
+          "Adaptability": 4.0,
+          "Computers and information technology": 4.0,
+          "Creativity and innovation": 3.5,
+          "Critical and analytical thinking": 3.2,
+          "Customer service": 3.7,
+          "Detail oriented": 2.9,
+          "Fine motor": 2.5,
+          "Interpersonal": 4.4,
+          "Leadership": 2.7,
+          "Mathematics": 1.6,
+          "Mechanical": 1.6,
+          "Physical strength and stamina": 3.3,
+          "Problem solving and decision making": 3.6,
+          "Project management": 3.4,
+          "Science": 3.6,
+          "Speaking and listening": 2.8,
+          "Writing and reading": 3.5
+        },
+        "avg_intensity": 3.19,
+        "top_skills": [
+          [
+            "Interpersonal",
+            4.4
+          ],
+          [
+            "Adaptability",
+            4.0
+          ],
+          [
+            "Computers and information technology",
+            4.0
+          ],
+          [
+            "Customer service",
+            3.7
+          ],
+          [
+            "Problem solving and decision making",
+            3.6
+          ]
+        ],
+        "bottom_skills": [
+          [
+            "Mathematics",
+            1.6
+          ],
+          [
+            "Mechanical",
+            1.6
+          ],
+          [
+            "Fine motor",
+            2.5
+          ]
+        ]
+      },
+      "pa_wages": {
+        "pennsylvania": {
+          "area_code": "42",
+          "area_name": "Pennsylvania",
+          "naics": "62",
+          "naics_title": "Health Care and Social Assistance",
+          "industry_group": "sector",
+          "soc_code": "99-1004",
+          "title": "Delta trainers",
+          "employment": 9920,
+          "employment_rse": 3.6,
+          "pct_of_industry": 1.56,
+          "mean_wage": 60086,
+          "median_wage": 58908,
+          "wage_pct10": 38290,
+          "wage_pct25": 48304,
+          "wage_pct75": 67744,
+          "wage_pct90": 76580,
+          "hourly_mean": 28.89,
+          "hourly_median": 28.32
+        },
+        "state_count": 52,
+        "pa_wage_rank": 32,
+        "pa_subindustries": []
+      },
+      "enrollment": {
+        "et_series": {
+          "years": [
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "headcount": [
+            55,
+            50,
+            48,
+            42,
+            38,
+            42,
+            30,
+            22,
+            18,
+            15
+          ],
+          "fte": [
+            55.0,
+            50.0,
+            48.0,
+            42.0,
+            38.0,
+            42.0,
+            30.0,
+            22.0,
+            18.0,
+            15.0
+          ],
+          "tuition": [
+            892870,
+            768272,
+            608220,
+            742153,
+            613552,
+            541562,
+            366485,
+            312737,
+            275673,
+            218681
+          ],
+          "in_state": [
+            8,
+            11,
+            16,
+            14,
+            6,
+            9,
+            8,
+            6,
+            3,
+            3
+          ],
+          "out_of_state": [
+            45,
+            42,
+            38,
+            35,
+            26,
+            28,
+            24,
+            15,
+            13,
+            10
+          ]
+        },
+        "gross_tuition": {
+          "ay_labels": [
+            "AY21",
+            "AY22",
+            "AY23",
+            "AY24",
+            "AY25",
+            "AY26",
+            "AY27",
+            "AY28",
+            "AY29",
+            "AY30"
+          ],
+          "enrollment": [
+            42,
+            30,
+            22,
+            18,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10
+          ],
+          "revenue": [
+            1500000,
+            1100000,
+            820000,
+            680000,
+            540000,
+            500000,
+            470000,
+            440000,
+            410000,
+            380000
+          ],
+          "revenue_per_student": [
+            35714,
+            36667,
+            37273,
+            37778,
+            36000,
+            35714,
+            36154,
+            36667,
+            37273,
+            38000
+          ]
+        }
+      },
+      "admissions": {
+        "years": [
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "annual": {
+          "2021": {
+            "terms": {
+              "Fall": {
+                "applied": 830,
+                "admitted": 467,
+                "enrolled": 174
+              }
+            },
+            "total_applied": 830,
+            "total_admitted": 467,
+            "total_enrolled": 174,
+            "selectivity_pct": 56.3,
+            "yield_pct": 37.3
+          },
+          "2022": {
+            "terms": {
+              "Fall": {
+                "applied": 658,
+                "admitted": 234,
+                "enrolled": 113
+              }
+            },
+            "total_applied": 658,
+            "total_admitted": 234,
+            "total_enrolled": 113,
+            "selectivity_pct": 35.6,
+            "yield_pct": 48.3
+          },
+          "2023": {
+            "terms": {
+              "Fall": {
+                "applied": 371,
+                "admitted": 149,
+                "enrolled": 38
+              }
+            },
+            "total_applied": 371,
+            "total_admitted": 149,
+            "total_enrolled": 38,
+            "selectivity_pct": 40.2,
+            "yield_pct": 25.5
+          },
+          "2024": {
+            "terms": {
+              "Fall": {
+                "applied": 1113,
+                "admitted": 377,
+                "enrolled": 186
+              }
+            },
+            "total_applied": 1113,
+            "total_admitted": 377,
+            "total_enrolled": 186,
+            "selectivity_pct": 33.9,
+            "yield_pct": 49.3
+          }
+        }
+      },
+      "financials": {
+        "gross_tuition": 540000,
+        "adjusted_tuition": 337500,
+        "total_compensation": 310000,
+        "total_expenses": 780000,
+        "net_income": -240000,
+        "overhead": 220000,
+        "department": "DEPT_2",
+        "source_file": "DEPT_2_program.xlsx"
+      },
+      "retention": {
+        "cohort_data": [
+          {
+            "plan_code": "PROG_D-PLAN",
+            "first_enrolled_term": "2211",
+            "compare_term": "2221",
+            "retained": 44,
+            "not_retained": 5,
+            "total": 49,
+            "retention_pct": 89.8
+          },
+          {
+            "plan_code": "PROG_D-PLAN",
+            "first_enrolled_term": "2221",
+            "compare_term": "2231",
+            "retained": 30,
+            "not_retained": 4,
+            "total": 34,
+            "retention_pct": 88.2
+          },
+          {
+            "plan_code": "PROG_D-PLAN",
+            "first_enrolled_term": "2231",
+            "compare_term": "2241",
+            "retained": 54,
+            "not_retained": 8,
+            "total": 62,
+            "retention_pct": 87.1
+          },
+          {
+            "plan_code": "PROG_D-PLAN",
+            "first_enrolled_term": "2241",
+            "compare_term": "2251",
+            "retained": 36,
+            "not_retained": 5,
+            "total": 41,
+            "retention_pct": 87.8
+          },
+          {
+            "plan_code": "PROG_D-PLAN",
+            "first_enrolled_term": "2251",
+            "compare_term": "2261",
+            "retained": 23,
+            "not_retained": 1,
+            "total": 24,
+            "retention_pct": 95.8
+          }
+        ]
+      },
+      "faculty": {
+        "department": "DEPT_2",
+        "department_total_faculty": 28,
+        "department_ft_faculty": 12,
+        "department_pt_faculty": 16,
+        "department_tenure_track": 5,
+        "sharing_note": "DEPT_2 faculty serve Gamma and Delta",
+        "programs_sharing": [
+          "PROG_C",
+          "PROG_D"
+        ]
+      },
+      "outcomes": {},
+      "peers": {
+        "competitors": [
+          {
+            "school": "Pacific Coast University",
+            "tier": "national",
+            "raw_label": "Pacific Coast University (national)"
+          },
+          {
+            "school": "Great Lakes University",
+            "tier": "national",
+            "raw_label": "Great Lakes University (national)"
+          },
+          {
+            "school": "Capital City University",
+            "tier": "national",
+            "raw_label": "Capital City University (national)"
+          },
+          {
+            "school": "Riverdale University",
+            "tier": "national",
+            "raw_label": "Riverdale University (national)"
+          },
+          {
+            "school": "Crossroads University",
+            "tier": "regional",
+            "raw_label": "Crossroads University (regional)"
+          },
+          {
+            "school": "Brookfield University",
+            "tier": "regional",
+            "raw_label": "Brookfield University (regional)"
+          },
+          {
+            "school": "Valley Forge University",
+            "tier": "regional",
+            "raw_label": "Valley Forge University (regional)"
+          },
+          {
+            "school": "Lakeshore University",
+            "tier": "regional",
+            "raw_label": "Lakeshore University (regional)"
+          },
+          {
+            "school": "Oakwood University",
+            "tier": "local",
+            "raw_label": "Oakwood University (local)"
+          },
+          {
+            "school": "Clarkton University",
+            "tier": "local",
+            "raw_label": "Clarkton University (local)"
+          },
+          {
+            "school": "Fairview University",
+            "tier": "local",
+            "raw_label": "Fairview University (local)"
+          }
+        ]
+      },
+      "ipeds": {
+        "national_completions": {
+          "2017-18": 1200,
+          "2018-19": 1150,
+          "2019-20": 1100,
+          "2020-21": 1050,
+          "2021-22": 980,
+          "2022-23": 920,
+          "2023-24": 850
+        },
+        "pitt_completions": {
+          "2017-18": 15,
+          "2018-19": 14,
+          "2019-20": 12,
+          "2020-21": 10,
+          "2021-22": 8,
+          "2022-23": 7,
+          "2023-24": 6
+        },
+        "pa_competitors": [
+          {
+            "unitid": "900001",
+            "school": "Ridgeview University",
+            "city": "Philadelphia",
+            "state": "PA",
+            "control": "2",
+            "awards": 168,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 1
+          },
+          {
+            "unitid": "900002",
+            "school": "Valley Forge University",
+            "city": "Erie",
+            "state": "PA",
+            "control": "2",
+            "awards": 87,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 2
+          },
+          {
+            "unitid": "900004",
+            "school": "Brookfield University",
+            "city": "Allentown",
+            "state": "PA",
+            "control": "2",
+            "awards": 47,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 3
+          },
+          {
+            "unitid": "900003",
+            "school": "Hillcrest University",
+            "city": "Harrisburg",
+            "state": "PA",
+            "control": "2",
+            "awards": 29,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 4
+          },
+          {
+            "unitid": "215293",
+            "school": "University of Pittsburgh-Pittsburgh Campus",
+            "city": "Pittsburgh",
+            "state": "PA",
+            "control": "1",
+            "awards": 6,
+            "is_pitt": true,
+            "year": "2023-24",
+            "pa_rank": 5
+          }
+        ]
+      },
+      "ranking": {
+        "ranked": false,
+        "us_news_category": null,
+        "pitt_rank": null,
+        "pitt_rank_tied": false,
+        "total_programs_ranked": null,
+        "previous_rank": null,
+        "previous_edition": null,
+        "top_10": []
+      }
+    },
+    "PROG_E": {
+      "key": "PROG_E",
+      "full_name": "Program Epsilon",
+      "department": "DEPT_3",
+      "degree_level": "Doctorate",
+      "primary_soc": "99-1005",
+      "secondary_soc": null,
+      "projection": {
+        "soc_code": "99-1005",
+        "title": "Epsilon therapists",
+        "employment_2024": 155.0,
+        "employment_2034": 178.0,
+        "growth_numeric": 23.0,
+        "growth_percent": 14.8,
+        "annual_openings": 10.5,
+        "median_wage": 98500,
+        "typical_education": "Doctoral or professional degree",
+        "work_experience": "None",
+        "on_the_job_training": "None",
+        "percent_self_employed": 7.6
+      },
+      "separation": {
+        "soc_code": "99-1005",
+        "title": "Epsilon therapists",
+        "employment_2024": 155.0,
+        "employment_2034": 178.0,
+        "growth_numeric": 23.0,
+        "growth_percent": 14.8,
+        "labor_force_exit_rate": 1.9,
+        "occupational_transfer_rate": 1.6,
+        "total_separation_rate": 3.5,
+        "labor_force_exits": 3.0,
+        "occupational_transfers": 2.4,
+        "total_separations": 5.4,
+        "annual_openings": 10.5
+      },
+      "education": {
+        "attainment": {
+          "soc_code": "99-1005",
+          "title": "Epsilon therapists",
+          "distribution": {
+            "Less than high school diploma": 0.8,
+            "High school diploma or equivalent": 1.4,
+            "Some college, no degree": 1.9,
+            "Associate's degree": 1.8,
+            "Bachelor's degree": 28.5,
+            "Master's degree": 18.6,
+            "Doctoral or professional degree": 53.3
+          },
+          "dominant_level": "Doctoral or professional degree",
+          "dominant_percent": 53.3,
+          "graduate_percent": 71.9
+        },
+        "requirements": {
+          "soc_code": "99-1005",
+          "title": "Epsilon therapists",
+          "typical_education": "Doctoral or professional degree",
+          "work_experience": "None",
+          "on_the_job_training": "None"
+        }
+      },
+      "skills": {
+        "ep_scores": {
+          "Adaptability": 4.0,
+          "Computers and information technology": 3.0,
+          "Creativity and innovation": 3.7,
+          "Critical and analytical thinking": 3.8,
+          "Customer service": 4.0,
+          "Detail oriented": 2.7,
+          "Fine motor": 2.8,
+          "Interpersonal": 3.4,
+          "Leadership": 2.6,
+          "Mathematics": 2.1,
+          "Mechanical": 2.2,
+          "Physical strength and stamina": 3.7,
+          "Problem solving and decision making": 4.1,
+          "Project management": 3.9,
+          "Science": 3.6,
+          "Speaking and listening": 2.8,
+          "Writing and reading": 3.1
+        },
+        "avg_intensity": 3.26,
+        "top_skills": [
+          [
+            "Problem solving and decision making",
+            4.1
+          ],
+          [
+            "Adaptability",
+            4.0
+          ],
+          [
+            "Customer service",
+            4.0
+          ],
+          [
+            "Project management",
+            3.9
+          ],
+          [
+            "Critical and analytical thinking",
+            3.8
+          ]
+        ],
+        "bottom_skills": [
+          [
+            "Mathematics",
+            2.1
+          ],
+          [
+            "Mechanical",
+            2.2
+          ],
+          [
+            "Leadership",
+            2.6
+          ]
+        ]
+      },
+      "pa_wages": {
+        "pennsylvania": {
+          "area_code": "42",
+          "area_name": "Pennsylvania",
+          "naics": "62",
+          "naics_title": "Health Care and Social Assistance",
+          "industry_group": "sector",
+          "soc_code": "99-1005",
+          "title": "Epsilon therapists",
+          "employment": 10761,
+          "employment_rse": 5.3,
+          "pct_of_industry": 0.63,
+          "mean_wage": 95338,
+          "median_wage": 93469,
+          "wage_pct10": 60754,
+          "wage_pct25": 76644,
+          "wage_pct75": 107489,
+          "wage_pct90": 121509,
+          "hourly_mean": 45.84,
+          "hourly_median": 44.94
+        },
+        "state_count": 52,
+        "pa_wage_rank": 36,
+        "pa_subindustries": []
+      },
+      "enrollment": {
+        "et_series": {
+          "years": [
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "headcount": [
+            90,
+            95,
+            100,
+            110,
+            115,
+            100,
+            105,
+            115,
+            120,
+            125
+          ],
+          "fte": [
+            90.0,
+            95.0,
+            100.0,
+            110.0,
+            115.0,
+            100.0,
+            105.0,
+            115.0,
+            120.0,
+            125.0
+          ],
+          "tuition": [
+            1587796,
+            1526071,
+            1741683,
+            1726240,
+            1587655,
+            1528762,
+            1260256,
+            1577970,
+            1749519,
+            1934989
+          ],
+          "in_state": [
+            25,
+            23,
+            23,
+            21,
+            28,
+            33,
+            32,
+            21,
+            20,
+            31
+          ],
+          "out_of_state": [
+            69,
+            68,
+            81,
+            88,
+            90,
+            69,
+            72,
+            75,
+            83,
+            93
+          ]
+        },
+        "gross_tuition": {
+          "ay_labels": [
+            "AY21",
+            "AY22",
+            "AY23",
+            "AY24",
+            "AY25",
+            "AY26",
+            "AY27",
+            "AY28",
+            "AY29",
+            "AY30"
+          ],
+          "enrollment": [
+            100,
+            105,
+            115,
+            120,
+            125,
+            130,
+            135,
+            140,
+            145,
+            150
+          ],
+          "revenue": [
+            5800000,
+            6100000,
+            6800000,
+            7200000,
+            7500000,
+            7800000,
+            8100000,
+            8400000,
+            8700000,
+            9000000
+          ],
+          "revenue_per_student": [
+            58000,
+            58095,
+            59130,
+            60000,
+            60000,
+            60000,
+            60000,
+            60000,
+            60000,
+            60000
+          ]
+        }
+      },
+      "admissions": {
+        "years": [
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "annual": {
+          "2021": {
+            "terms": {
+              "Fall": {
+                "applied": 299,
+                "admitted": 129,
+                "enrolled": 66
+              }
+            },
+            "total_applied": 299,
+            "total_admitted": 129,
+            "total_enrolled": 66,
+            "selectivity_pct": 43.1,
+            "yield_pct": 51.2
+          },
+          "2022": {
+            "terms": {
+              "Fall": {
+                "applied": 548,
+                "admitted": 294,
+                "enrolled": 107
+              }
+            },
+            "total_applied": 548,
+            "total_admitted": 294,
+            "total_enrolled": 107,
+            "selectivity_pct": 53.6,
+            "yield_pct": 36.4
+          },
+          "2023": {
+            "terms": {
+              "Fall": {
+                "applied": 968,
+                "admitted": 336,
+                "enrolled": 150
+              }
+            },
+            "total_applied": 968,
+            "total_admitted": 336,
+            "total_enrolled": 150,
+            "selectivity_pct": 34.7,
+            "yield_pct": 44.6
+          },
+          "2024": {
+            "terms": {
+              "Fall": {
+                "applied": 161,
+                "admitted": 97,
+                "enrolled": 49
+              }
+            },
+            "total_applied": 161,
+            "total_admitted": 97,
+            "total_enrolled": 49,
+            "selectivity_pct": 60.2,
+            "yield_pct": 50.5
+          }
+        }
+      },
+      "financials": {
+        "gross_tuition": 7500000,
+        "adjusted_tuition": 4687500,
+        "total_compensation": 2100000,
+        "total_expenses": 3200000,
+        "net_income": 4300000,
+        "overhead": 1500000,
+        "department": "DEPT_3",
+        "source_file": "DEPT_3_program.xlsx"
+      },
+      "retention": {
+        "cohort_data": [
+          {
+            "plan_code": "PROG_E-PLAN",
+            "first_enrolled_term": "2211",
+            "compare_term": "2221",
+            "retained": 25,
+            "not_retained": 1,
+            "total": 26,
+            "retention_pct": 96.2
+          },
+          {
+            "plan_code": "PROG_E-PLAN",
+            "first_enrolled_term": "2221",
+            "compare_term": "2231",
+            "retained": 29,
+            "not_retained": 5,
+            "total": 34,
+            "retention_pct": 85.3
+          },
+          {
+            "plan_code": "PROG_E-PLAN",
+            "first_enrolled_term": "2231",
+            "compare_term": "2241",
+            "retained": 59,
+            "not_retained": 5,
+            "total": 64,
+            "retention_pct": 92.2
+          },
+          {
+            "plan_code": "PROG_E-PLAN",
+            "first_enrolled_term": "2241",
+            "compare_term": "2251",
+            "retained": 21,
+            "not_retained": 2,
+            "total": 23,
+            "retention_pct": 91.3
+          },
+          {
+            "plan_code": "PROG_E-PLAN",
+            "first_enrolled_term": "2251",
+            "compare_term": "2261",
+            "retained": 24,
+            "not_retained": 3,
+            "total": 27,
+            "retention_pct": 88.9
+          }
+        ]
+      },
+      "faculty": {
+        "department": "DEPT_3",
+        "department_total_faculty": 55,
+        "department_ft_faculty": 22,
+        "department_pt_faculty": 33,
+        "department_tenure_track": 10,
+        "sharing_note": "DEPT_3 faculty serve Epsilon",
+        "programs_sharing": [
+          "PROG_E"
+        ]
+      },
+      "outcomes": {},
+      "peers": {
+        "competitors": [
+          {
+            "school": "Great Lakes University",
+            "tier": "national",
+            "raw_label": "Great Lakes University (national)"
+          },
+          {
+            "school": "Riverdale University",
+            "tier": "national",
+            "raw_label": "Riverdale University (national)"
+          },
+          {
+            "school": "Capital City University",
+            "tier": "national",
+            "raw_label": "Capital City University (national)"
+          },
+          {
+            "school": "Pacific Coast University",
+            "tier": "national",
+            "raw_label": "Pacific Coast University (national)"
+          },
+          {
+            "school": "Summit University",
+            "tier": "regional",
+            "raw_label": "Summit University (regional)"
+          },
+          {
+            "school": "Hillcrest University",
+            "tier": "regional",
+            "raw_label": "Hillcrest University (regional)"
+          },
+          {
+            "school": "Brookfield University",
+            "tier": "regional",
+            "raw_label": "Brookfield University (regional)"
+          },
+          {
+            "school": "Crossroads University",
+            "tier": "regional",
+            "raw_label": "Crossroads University (regional)"
+          },
+          {
+            "school": "Fairview University",
+            "tier": "local",
+            "raw_label": "Fairview University (local)"
+          },
+          {
+            "school": "Mapleton University",
+            "tier": "local",
+            "raw_label": "Mapleton University (local)"
+          },
+          {
+            "school": "Oakwood University",
+            "tier": "local",
+            "raw_label": "Oakwood University (local)"
+          }
+        ]
+      },
+      "ipeds": {
+        "national_completions": {
+          "2017-18": 5200,
+          "2018-19": 5400,
+          "2019-20": 5600,
+          "2020-21": 5800,
+          "2021-22": 6000,
+          "2022-23": 6100,
+          "2023-24": 6200
+        },
+        "pitt_completions": {
+          "2017-18": 30,
+          "2018-19": 32,
+          "2019-20": 35,
+          "2020-21": 38,
+          "2021-22": 40,
+          "2022-23": 42,
+          "2023-24": 44
+        },
+        "pa_competitors": [
+          {
+            "unitid": "900002",
+            "school": "Valley Forge University",
+            "city": "Erie",
+            "state": "PA",
+            "control": "2",
+            "awards": 240,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 1
+          },
+          {
+            "unitid": "900001",
+            "school": "Ridgeview University",
+            "city": "Philadelphia",
+            "state": "PA",
+            "control": "2",
+            "awards": 210,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 2
+          },
+          {
+            "unitid": "900003",
+            "school": "Hillcrest University",
+            "city": "Harrisburg",
+            "state": "PA",
+            "control": "2",
+            "awards": 141,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 3
+          },
+          {
+            "unitid": "900004",
+            "school": "Brookfield University",
+            "city": "Allentown",
+            "state": "PA",
+            "control": "2",
+            "awards": 135,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 4
+          },
+          {
+            "unitid": "215293",
+            "school": "University of Pittsburgh-Pittsburgh Campus",
+            "city": "Pittsburgh",
+            "state": "PA",
+            "control": "1",
+            "awards": 44,
+            "is_pitt": true,
+            "year": "2023-24",
+            "pa_rank": 5
+          }
+        ]
+      },
+      "ranking": {
+        "ranked": true,
+        "us_news_category": "Program Epsilon Studies",
+        "pitt_rank": 1,
+        "pitt_rank_tied": true,
+        "total_programs_ranked": 289,
+        "previous_rank": 3,
+        "previous_edition": "2025",
+        "top_10": [
+          {
+            "rank": 1,
+            "school": "Northfield University",
+            "tied": true
+          },
+          {
+            "rank": 1,
+            "school": "Westlake State University",
+            "tied": true
+          },
+          {
+            "rank": 1,
+            "school": "University of Pittsburgh",
+            "tied": true
+          },
+          {
+            "rank": 1,
+            "school": "Pacific Coast University",
+            "tied": true
+          },
+          {
+            "rank": 5,
+            "school": "Midlands University",
+            "tied": true
+          },
+          {
+            "rank": 5,
+            "school": "Great Lakes University",
+            "tied": true
+          },
+          {
+            "rank": 5,
+            "school": "Capital City University",
+            "tied": true
+          },
+          {
+            "rank": 8,
+            "school": "Sunbelt University",
+            "tied": true
+          },
+          {
+            "rank": 8,
+            "school": "Mountain View University",
+            "tied": true
+          },
+          {
+            "rank": 10,
+            "school": "Prairie State University",
+            "tied": false
+          }
+        ]
+      }
+    },
+    "PROG_F": {
+      "key": "PROG_F",
+      "full_name": "Program Zeta",
+      "department": "DEPT_3",
+      "degree_level": "Doctorate",
+      "primary_soc": "99-1006",
+      "secondary_soc": null,
+      "projection": {
+        "soc_code": "99-1006",
+        "title": "Zeta therapists",
+        "employment_2024": 267.2,
+        "employment_2034": 296.4,
+        "growth_numeric": 29.2,
+        "growth_percent": 10.9,
+        "annual_openings": 13.2,
+        "median_wage": 101000,
+        "typical_education": "Doctoral or professional degree",
+        "work_experience": "None",
+        "on_the_job_training": "None",
+        "percent_self_employed": 3.9
+      },
+      "separation": {
+        "soc_code": "99-1006",
+        "title": "Zeta therapists",
+        "employment_2024": 267.2,
+        "employment_2034": 296.4,
+        "growth_numeric": 29.2,
+        "growth_percent": 10.9,
+        "labor_force_exit_rate": 2.0,
+        "occupational_transfer_rate": 1.7,
+        "total_separation_rate": 3.7,
+        "labor_force_exits": 5.4,
+        "occupational_transfers": 4.4,
+        "total_separations": 9.9,
+        "annual_openings": 13.2
+      },
+      "education": {
+        "attainment": {
+          "soc_code": "99-1006",
+          "title": "Zeta therapists",
+          "distribution": {
+            "Less than high school diploma": 0.5,
+            "High school diploma or equivalent": 1.1,
+            "Some college, no degree": 1.2,
+            "Associate's degree": 2.6,
+            "Bachelor's degree": 28.6,
+            "Master's degree": 19.6,
+            "Doctoral or professional degree": 53.9
+          },
+          "dominant_level": "Doctoral or professional degree",
+          "dominant_percent": 53.9,
+          "graduate_percent": 73.5
+        },
+        "requirements": {
+          "soc_code": "99-1006",
+          "title": "Zeta therapists",
+          "typical_education": "Doctoral or professional degree",
+          "work_experience": "None",
+          "on_the_job_training": "None"
+        }
+      },
+      "skills": {
+        "ep_scores": {
+          "Adaptability": 3.5,
+          "Computers and information technology": 2.9,
+          "Creativity and innovation": 3.5,
+          "Critical and analytical thinking": 4.2,
+          "Customer service": 3.3,
+          "Detail oriented": 3.4,
+          "Fine motor": 1.8,
+          "Interpersonal": 3.3,
+          "Leadership": 2.9,
+          "Mathematics": 1.8,
+          "Mechanical": 1.9,
+          "Physical strength and stamina": 3.3,
+          "Problem solving and decision making": 3.4,
+          "Project management": 2.8,
+          "Science": 3.5,
+          "Speaking and listening": 3.6,
+          "Writing and reading": 2.6
+        },
+        "avg_intensity": 3.04,
+        "top_skills": [
+          [
+            "Critical and analytical thinking",
+            4.2
+          ],
+          [
+            "Speaking and listening",
+            3.6
+          ],
+          [
+            "Adaptability",
+            3.5
+          ],
+          [
+            "Creativity and innovation",
+            3.5
+          ],
+          [
+            "Science",
+            3.5
+          ]
+        ],
+        "bottom_skills": [
+          [
+            "Fine motor",
+            1.8
+          ],
+          [
+            "Mathematics",
+            1.8
+          ],
+          [
+            "Mechanical",
+            1.9
+          ]
+        ]
+      },
+      "pa_wages": {
+        "pennsylvania": {
+          "area_code": "42",
+          "area_name": "Pennsylvania",
+          "naics": "62",
+          "naics_title": "Health Care and Social Assistance",
+          "industry_group": "sector",
+          "soc_code": "99-1006",
+          "title": "Zeta therapists",
+          "employment": 11718,
+          "employment_rse": 4.3,
+          "pct_of_industry": 0.31,
+          "mean_wage": 105956,
+          "median_wage": 103879,
+          "wage_pct10": 67521,
+          "wage_pct25": 85180,
+          "wage_pct75": 119460,
+          "wage_pct90": 135042,
+          "hourly_mean": 50.94,
+          "hourly_median": 49.94
+        },
+        "state_count": 52,
+        "pa_wage_rank": 26,
+        "pa_subindustries": []
+      },
+      "enrollment": {
+        "et_series": {
+          "years": [
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "headcount": [
+            280,
+            290,
+            300,
+            310,
+            305,
+            189,
+            207,
+            293,
+            381,
+            397
+          ],
+          "fte": [
+            280.0,
+            290.0,
+            300.0,
+            310.0,
+            305.0,
+            189.0,
+            207.0,
+            293.0,
+            381.0,
+            397.0
+          ],
+          "tuition": [
+            3861669,
+            4158577,
+            5204955,
+            5274455,
+            4644944,
+            3101075,
+            3477436,
+            5094352,
+            5688093,
+            5414132
+          ],
+          "in_state": [
+            69,
+            66,
+            85,
+            95,
+            89,
+            60,
+            69,
+            101,
+            97,
+            131
+          ],
+          "out_of_state": [
+            215,
+            226,
+            200,
+            228,
+            251,
+            129,
+            145,
+            209,
+            282,
+            284
+          ]
+        },
+        "gross_tuition": {
+          "ay_labels": [
+            "AY21",
+            "AY22",
+            "AY23",
+            "AY24",
+            "AY25",
+            "AY26",
+            "AY27",
+            "AY28",
+            "AY29",
+            "AY30"
+          ],
+          "enrollment": [
+            189,
+            207,
+            293,
+            381,
+            397,
+            420,
+            440,
+            460,
+            475,
+            490
+          ],
+          "revenue": [
+            8500000,
+            9200000,
+            12500000,
+            16200000,
+            17000000,
+            18000000,
+            19000000,
+            20000000,
+            21000000,
+            22000000
+          ],
+          "revenue_per_student": [
+            44974,
+            44444,
+            42662,
+            42520,
+            42821,
+            42857,
+            43182,
+            43478,
+            44211,
+            44898
+          ]
+        }
+      },
+      "admissions": {
+        "years": [
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "annual": {
+          "2021": {
+            "terms": {
+              "Fall": {
+                "applied": 926,
+                "admitted": 334,
+                "enrolled": 178
+              }
+            },
+            "total_applied": 926,
+            "total_admitted": 334,
+            "total_enrolled": 178,
+            "selectivity_pct": 36.1,
+            "yield_pct": 53.3
+          },
+          "2022": {
+            "terms": {
+              "Fall": {
+                "applied": 1013,
+                "admitted": 355,
+                "enrolled": 97
+              }
+            },
+            "total_applied": 1013,
+            "total_admitted": 355,
+            "total_enrolled": 97,
+            "selectivity_pct": 35.0,
+            "yield_pct": 27.3
+          },
+          "2023": {
+            "terms": {
+              "Fall": {
+                "applied": 189,
+                "admitted": 103,
+                "enrolled": 27
+              }
+            },
+            "total_applied": 189,
+            "total_admitted": 103,
+            "total_enrolled": 27,
+            "selectivity_pct": 54.5,
+            "yield_pct": 26.2
+          },
+          "2024": {
+            "terms": {
+              "Fall": {
+                "applied": 866,
+                "admitted": 294,
+                "enrolled": 79
+              }
+            },
+            "total_applied": 866,
+            "total_admitted": 294,
+            "total_enrolled": 79,
+            "selectivity_pct": 33.9,
+            "yield_pct": 26.9
+          }
+        }
+      },
+      "financials": {
+        "gross_tuition": 11960000,
+        "adjusted_tuition": 7475000,
+        "total_compensation": 3920000,
+        "total_expenses": 5520000,
+        "net_income": 6440000,
+        "overhead": 2590000,
+        "department": "DEPT_3",
+        "source_file": "DEPT_3_program.xlsx"
+      },
+      "retention": {
+        "cohort_data": [
+          {
+            "plan_code": "PROG_F-PLAN",
+            "first_enrolled_term": "2211",
+            "compare_term": "2221",
+            "retained": 52,
+            "not_retained": 9,
+            "total": 61,
+            "retention_pct": 85.2
+          },
+          {
+            "plan_code": "PROG_F-PLAN",
+            "first_enrolled_term": "2221",
+            "compare_term": "2231",
+            "retained": 20,
+            "not_retained": 1,
+            "total": 21,
+            "retention_pct": 95.2
+          },
+          {
+            "plan_code": "PROG_F-PLAN",
+            "first_enrolled_term": "2231",
+            "compare_term": "2241",
+            "retained": 31,
+            "not_retained": 1,
+            "total": 32,
+            "retention_pct": 96.9
+          },
+          {
+            "plan_code": "PROG_F-PLAN",
+            "first_enrolled_term": "2241",
+            "compare_term": "2251",
+            "retained": 51,
+            "not_retained": 8,
+            "total": 59,
+            "retention_pct": 86.4
+          },
+          {
+            "plan_code": "PROG_F-PLAN",
+            "first_enrolled_term": "2251",
+            "compare_term": "2261",
+            "retained": 25,
+            "not_retained": 3,
+            "total": 28,
+            "retention_pct": 89.3
+          }
+        ]
+      },
+      "faculty": {
+        "department": "DEPT_4",
+        "department_total_faculty": 250,
+        "department_ft_faculty": 38,
+        "department_pt_faculty": 212,
+        "department_tenure_track": 2,
+        "sharing_note": "Large adjunct population",
+        "programs_sharing": [
+          "PROG_F"
+        ]
+      },
+      "outcomes": {},
+      "peers": {
+        "competitors": [
+          {
+            "school": "Northfield University",
+            "tier": "national",
+            "raw_label": "Northfield University (national)"
+          },
+          {
+            "school": "Capital City University",
+            "tier": "national",
+            "raw_label": "Capital City University (national)"
+          },
+          {
+            "school": "Heartland University",
+            "tier": "national",
+            "raw_label": "Heartland University (national)"
+          },
+          {
+            "school": "Riverdale University",
+            "tier": "national",
+            "raw_label": "Riverdale University (national)"
+          },
+          {
+            "school": "Crossroads University",
+            "tier": "regional",
+            "raw_label": "Crossroads University (regional)"
+          },
+          {
+            "school": "Valley Forge University",
+            "tier": "regional",
+            "raw_label": "Valley Forge University (regional)"
+          },
+          {
+            "school": "Summit University",
+            "tier": "regional",
+            "raw_label": "Summit University (regional)"
+          },
+          {
+            "school": "Ridgeview University",
+            "tier": "regional",
+            "raw_label": "Ridgeview University (regional)"
+          },
+          {
+            "school": "Fairview University",
+            "tier": "local",
+            "raw_label": "Fairview University (local)"
+          },
+          {
+            "school": "Oakwood University",
+            "tier": "local",
+            "raw_label": "Oakwood University (local)"
+          },
+          {
+            "school": "Mapleton University",
+            "tier": "local",
+            "raw_label": "Mapleton University (local)"
+          }
+        ]
+      },
+      "ipeds": {
+        "national_completions": {
+          "2017-18": 11400,
+          "2018-19": 11900,
+          "2019-20": 12200,
+          "2020-21": 12800,
+          "2021-22": 12950,
+          "2022-23": 12950,
+          "2023-24": 12700
+        },
+        "pitt_completions": {
+          "2017-18": 56,
+          "2018-19": 58,
+          "2019-20": 63,
+          "2020-21": 62,
+          "2021-22": 68,
+          "2022-23": 57,
+          "2023-24": 78
+        },
+        "pa_competitors": [
+          {
+            "unitid": "900003",
+            "school": "Hillcrest University",
+            "city": "Harrisburg",
+            "state": "PA",
+            "control": "2",
+            "awards": 168,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 1
+          },
+          {
+            "unitid": "900001",
+            "school": "Ridgeview University",
+            "city": "Philadelphia",
+            "state": "PA",
+            "control": "2",
+            "awards": 99,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 2
+          },
+          {
+            "unitid": "215293",
+            "school": "University of Pittsburgh-Pittsburgh Campus",
+            "city": "Pittsburgh",
+            "state": "PA",
+            "control": "1",
+            "awards": 78,
+            "is_pitt": true,
+            "year": "2023-24",
+            "pa_rank": 3
+          },
+          {
+            "unitid": "900002",
+            "school": "Valley Forge University",
+            "city": "Erie",
+            "state": "PA",
+            "control": "2",
+            "awards": 47,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 4
+          },
+          {
+            "unitid": "900004",
+            "school": "Brookfield University",
+            "city": "Allentown",
+            "state": "PA",
+            "control": "2",
+            "awards": 26,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 5
+          }
+        ]
+      },
+      "ranking": {
+        "ranked": true,
+        "us_news_category": "Program Zeta Studies",
+        "pitt_rank": 8,
+        "pitt_rank_tied": false,
+        "total_programs_ranked": 278,
+        "previous_rank": 9,
+        "previous_edition": "2025",
+        "top_10": [
+          {
+            "rank": 1,
+            "school": "Pacific Coast University",
+            "tied": true
+          },
+          {
+            "rank": 1,
+            "school": "Riverdale University",
+            "tied": true
+          },
+          {
+            "rank": 2,
+            "school": "Heartland University",
+            "tied": false
+          },
+          {
+            "rank": 3,
+            "school": "Capital City University",
+            "tied": false
+          },
+          {
+            "rank": 4,
+            "school": "Sunbelt University",
+            "tied": true
+          },
+          {
+            "rank": 4,
+            "school": "Great Lakes University",
+            "tied": true
+          },
+          {
+            "rank": 6,
+            "school": "Northfield University",
+            "tied": true
+          },
+          {
+            "rank": 6,
+            "school": "Mountain View University",
+            "tied": true
+          },
+          {
+            "rank": 8,
+            "school": "University of Pittsburgh",
+            "tied": false
+          },
+          {
+            "rank": 9,
+            "school": "Lakeshore University",
+            "tied": true
+          }
+        ]
+      }
+    },
+    "PROG_G": {
+      "key": "PROG_G",
+      "full_name": "Program Eta",
+      "department": "DEPT_4",
+      "degree_level": "Doctorate",
+      "primary_soc": "99-1007",
+      "secondary_soc": null,
+      "projection": {
+        "soc_code": "99-1007",
+        "title": "Eta associates",
+        "employment_2024": 145.5,
+        "employment_2034": 175.2,
+        "growth_numeric": 29.7,
+        "growth_percent": 20.4,
+        "annual_openings": 12.0,
+        "median_wage": 133000,
+        "typical_education": "Master's degree",
+        "work_experience": "None",
+        "on_the_job_training": "None",
+        "percent_self_employed": 5.6
+      },
+      "separation": {
+        "soc_code": "99-1007",
+        "title": "Eta associates",
+        "employment_2024": 145.5,
+        "employment_2034": 175.2,
+        "growth_numeric": 29.7,
+        "growth_percent": 20.4,
+        "labor_force_exit_rate": 2.7,
+        "occupational_transfer_rate": 2.2,
+        "total_separation_rate": 4.9,
+        "labor_force_exits": 3.9,
+        "occupational_transfers": 3.2,
+        "total_separations": 7.1,
+        "annual_openings": 12.0
+      },
+      "education": {
+        "attainment": {
+          "soc_code": "99-1007",
+          "title": "Eta associates",
+          "distribution": {
+            "Less than high school diploma": 0.2,
+            "High school diploma or equivalent": 1.5,
+            "Some college, no degree": 0.8,
+            "Associate's degree": 2.6,
+            "Bachelor's degree": 22.4,
+            "Master's degree": 17.6,
+            "Doctoral or professional degree": 47.2
+          },
+          "dominant_level": "Doctoral or professional degree",
+          "dominant_percent": 47.2,
+          "graduate_percent": 64.8
+        },
+        "requirements": {
+          "soc_code": "99-1007",
+          "title": "Eta associates",
+          "typical_education": "Master's degree",
+          "work_experience": "None",
+          "on_the_job_training": "None"
+        }
+      },
+      "skills": {
+        "ep_scores": {
+          "Adaptability": 4.4,
+          "Computers and information technology": 3.4,
+          "Creativity and innovation": 3.9,
+          "Critical and analytical thinking": 3.7,
+          "Customer service": 3.9,
+          "Detail oriented": 2.8,
+          "Fine motor": 2.3,
+          "Interpersonal": 4.3,
+          "Leadership": 2.9,
+          "Mathematics": 2.5,
+          "Mechanical": 1.9,
+          "Physical strength and stamina": 3.5,
+          "Problem solving and decision making": 4.2,
+          "Project management": 3.7,
+          "Science": 3.3,
+          "Speaking and listening": 2.6,
+          "Writing and reading": 3.3
+        },
+        "avg_intensity": 3.33,
+        "top_skills": [
+          [
+            "Adaptability",
+            4.4
+          ],
+          [
+            "Interpersonal",
+            4.3
+          ],
+          [
+            "Problem solving and decision making",
+            4.2
+          ],
+          [
+            "Creativity and innovation",
+            3.9
+          ],
+          [
+            "Customer service",
+            3.9
+          ]
+        ],
+        "bottom_skills": [
+          [
+            "Mechanical",
+            1.9
+          ],
+          [
+            "Fine motor",
+            2.3
+          ],
+          [
+            "Mathematics",
+            2.5
+          ]
+        ]
+      },
+      "pa_wages": {
+        "pennsylvania": {
+          "area_code": "42",
+          "area_name": "Pennsylvania",
+          "naics": "62",
+          "naics_title": "Health Care and Social Assistance",
+          "industry_group": "sector",
+          "soc_code": "99-1007",
+          "title": "Eta associates",
+          "employment": 7436,
+          "employment_rse": 2.9,
+          "pct_of_industry": 0.6,
+          "mean_wage": 140235,
+          "median_wage": 137486,
+          "wage_pct10": 89365,
+          "wage_pct25": 112738,
+          "wage_pct75": 158108,
+          "wage_pct90": 178731,
+          "hourly_mean": 67.42,
+          "hourly_median": 66.1
+        },
+        "state_count": 52,
+        "pa_wage_rank": 31,
+        "pa_subindustries": []
+      },
+      "enrollment": {
+        "et_series": {
+          "years": [
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "headcount": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            90,
+            370
+          ],
+          "fte": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            90.0,
+            370.0
+          ],
+          "tuition": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1539925,
+            6284223
+          ],
+          "in_state": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            16,
+            71
+          ],
+          "out_of_state": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            71,
+            276
+          ]
+        },
+        "gross_tuition": {
+          "ay_labels": [
+            "AY21",
+            "AY22",
+            "AY23",
+            "AY24",
+            "AY25",
+            "AY26",
+            "AY27",
+            "AY28",
+            "AY29",
+            "AY30"
+          ],
+          "enrollment": [
+            0,
+            0,
+            0,
+            90,
+            370,
+            420,
+            460,
+            500,
+            530,
+            560
+          ],
+          "revenue": [
+            0,
+            0,
+            0,
+            6700000,
+            17300000,
+            19500000,
+            21500000,
+            23500000,
+            25000000,
+            26500000
+          ],
+          "revenue_per_student": [
+            0,
+            0,
+            0,
+            74444,
+            46757,
+            46429,
+            46739,
+            47000,
+            47170,
+            47321
+          ]
+        }
+      },
+      "admissions": {
+        "years": [
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "annual": {
+          "2021": {
+            "terms": {
+              "Fall": {
+                "applied": 642,
+                "admitted": 337,
+                "enrolled": 149
+              }
+            },
+            "total_applied": 642,
+            "total_admitted": 337,
+            "total_enrolled": 149,
+            "selectivity_pct": 52.5,
+            "yield_pct": 44.2
+          },
+          "2022": {
+            "terms": {
+              "Fall": {
+                "applied": 1155,
+                "admitted": 495,
+                "enrolled": 126
+              }
+            },
+            "total_applied": 1155,
+            "total_admitted": 495,
+            "total_enrolled": 126,
+            "selectivity_pct": 42.9,
+            "yield_pct": 25.5
+          },
+          "2023": {
+            "terms": {
+              "Fall": {
+                "applied": 752,
+                "admitted": 254,
+                "enrolled": 116
+              }
+            },
+            "total_applied": 752,
+            "total_admitted": 254,
+            "total_enrolled": 116,
+            "selectivity_pct": 33.8,
+            "yield_pct": 45.7
+          },
+          "2024": {
+            "terms": {
+              "Fall": {
+                "applied": 777,
+                "admitted": 400,
+                "enrolled": 144
+              }
+            },
+            "total_applied": 777,
+            "total_admitted": 400,
+            "total_enrolled": 144,
+            "selectivity_pct": 51.5,
+            "yield_pct": 36.0
+          }
+        }
+      },
+      "financials": {
+        "gross_tuition": 17300000,
+        "adjusted_tuition": 10812500,
+        "total_compensation": 2800000,
+        "total_expenses": 5890000,
+        "net_income": 11410000,
+        "overhead": 3100000,
+        "department": "DEPT_4",
+        "source_file": "DEPT_4_program.xlsx"
+      },
+      "retention": {
+        "cohort_data": [
+          {
+            "plan_code": "PROG_G-PLAN",
+            "first_enrolled_term": "2211",
+            "compare_term": "2221",
+            "retained": 51,
+            "not_retained": 4,
+            "total": 55,
+            "retention_pct": 92.7
+          },
+          {
+            "plan_code": "PROG_G-PLAN",
+            "first_enrolled_term": "2221",
+            "compare_term": "2231",
+            "retained": 46,
+            "not_retained": 1,
+            "total": 47,
+            "retention_pct": 97.9
+          },
+          {
+            "plan_code": "PROG_G-PLAN",
+            "first_enrolled_term": "2231",
+            "compare_term": "2241",
+            "retained": 49,
+            "not_retained": 6,
+            "total": 55,
+            "retention_pct": 89.1
+          },
+          {
+            "plan_code": "PROG_G-PLAN",
+            "first_enrolled_term": "2241",
+            "compare_term": "2251",
+            "retained": 58,
+            "not_retained": 6,
+            "total": 64,
+            "retention_pct": 90.6
+          },
+          {
+            "plan_code": "PROG_G-PLAN",
+            "first_enrolled_term": "2251",
+            "compare_term": "2261",
+            "retained": 34,
+            "not_retained": 5,
+            "total": 39,
+            "retention_pct": 87.2
+          }
+        ]
+      },
+      "faculty": {
+        "department": "DEPT_5",
+        "department_total_faculty": 85,
+        "department_ft_faculty": 25,
+        "department_pt_faculty": 60,
+        "department_tenure_track": 4,
+        "sharing_note": "Growing faculty",
+        "programs_sharing": [
+          "PROG_G"
+        ]
+      },
+      "outcomes": {},
+      "peers": {
+        "competitors": [
+          {
+            "school": "Northfield University",
+            "tier": "national",
+            "raw_label": "Northfield University (national)"
+          },
+          {
+            "school": "Westlake State University",
+            "tier": "national",
+            "raw_label": "Westlake State University (national)"
+          },
+          {
+            "school": "Heartland University",
+            "tier": "national",
+            "raw_label": "Heartland University (national)"
+          },
+          {
+            "school": "Pacific Coast University",
+            "tier": "national",
+            "raw_label": "Pacific Coast University (national)"
+          },
+          {
+            "school": "Lakeshore University",
+            "tier": "regional",
+            "raw_label": "Lakeshore University (regional)"
+          },
+          {
+            "school": "Crossroads University",
+            "tier": "regional",
+            "raw_label": "Crossroads University (regional)"
+          },
+          {
+            "school": "Brookfield University",
+            "tier": "regional",
+            "raw_label": "Brookfield University (regional)"
+          },
+          {
+            "school": "Ridgeview University",
+            "tier": "regional",
+            "raw_label": "Ridgeview University (regional)"
+          },
+          {
+            "school": "Ironbridge University",
+            "tier": "local",
+            "raw_label": "Ironbridge University (local)"
+          },
+          {
+            "school": "Fairview University",
+            "tier": "local",
+            "raw_label": "Fairview University (local)"
+          },
+          {
+            "school": "Clarkton University",
+            "tier": "local",
+            "raw_label": "Clarkton University (local)"
+          }
+        ]
+      },
+      "ipeds": {
+        "national_completions": {
+          "2017-18": 9800,
+          "2018-19": 10200,
+          "2019-20": 10500,
+          "2020-21": 10800,
+          "2021-22": 11100,
+          "2022-23": 11400,
+          "2023-24": 11700
+        },
+        "pitt_completions": {
+          "2017-18": 0,
+          "2018-19": 0,
+          "2019-20": 0,
+          "2020-21": 0,
+          "2021-22": 15,
+          "2022-23": 45,
+          "2023-24": 60
+        },
+        "pa_competitors": [
+          {
+            "unitid": "900003",
+            "school": "Hillcrest University",
+            "city": "Harrisburg",
+            "state": "PA",
+            "control": "2",
+            "awards": 205,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 1
+          },
+          {
+            "unitid": "900004",
+            "school": "Brookfield University",
+            "city": "Allentown",
+            "state": "PA",
+            "control": "2",
+            "awards": 170,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 2
+          },
+          {
+            "unitid": "900001",
+            "school": "Ridgeview University",
+            "city": "Philadelphia",
+            "state": "PA",
+            "control": "2",
+            "awards": 143,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 3
+          },
+          {
+            "unitid": "900002",
+            "school": "Valley Forge University",
+            "city": "Erie",
+            "state": "PA",
+            "control": "2",
+            "awards": 90,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 4
+          },
+          {
+            "unitid": "215293",
+            "school": "University of Pittsburgh-Pittsburgh Campus",
+            "city": "Pittsburgh",
+            "state": "PA",
+            "control": "1",
+            "awards": 60,
+            "is_pitt": true,
+            "year": "2023-24",
+            "pa_rank": 5
+          }
+        ]
+      },
+      "ranking": {
+        "ranked": true,
+        "us_news_category": "Program Eta Studies",
+        "pitt_rank": 26,
+        "pitt_rank_tied": false,
+        "total_programs_ranked": 310,
+        "previous_rank": 28,
+        "previous_edition": "2025",
+        "top_10": [
+          {
+            "rank": 1,
+            "school": "Northfield University",
+            "tied": false
+          },
+          {
+            "rank": 2,
+            "school": "Heartland University",
+            "tied": false
+          },
+          {
+            "rank": 3,
+            "school": "Pacific Coast University",
+            "tied": false
+          },
+          {
+            "rank": 4,
+            "school": "Westlake State University",
+            "tied": false
+          },
+          {
+            "rank": 5,
+            "school": "Capital City University",
+            "tied": false
+          },
+          {
+            "rank": 6,
+            "school": "Great Lakes University",
+            "tied": false
+          },
+          {
+            "rank": 7,
+            "school": "Sunbelt University",
+            "tied": false
+          },
+          {
+            "rank": 8,
+            "school": "Mountain View University",
+            "tied": false
+          },
+          {
+            "rank": 9,
+            "school": "Riverdale University",
+            "tied": false
+          },
+          {
+            "rank": 10,
+            "school": "Prairie State University",
+            "tied": false
+          }
+        ]
+      }
+    },
+    "PROG_H": {
+      "key": "PROG_H",
+      "full_name": "Program Theta",
+      "department": "DEPT_5",
+      "degree_level": "Master's",
+      "primary_soc": "99-1008",
+      "secondary_soc": null,
+      "projection": {
+        "soc_code": "99-1008",
+        "title": "Theta managers",
+        "employment_2024": 467.0,
+        "employment_2034": 535.9,
+        "growth_numeric": 68.9,
+        "growth_percent": 14.8,
+        "annual_openings": 47.6,
+        "median_wage": 112000,
+        "typical_education": "Master's degree",
+        "work_experience": "Less than 5 years",
+        "on_the_job_training": "None",
+        "percent_self_employed": 5.0
+      },
+      "separation": {
+        "soc_code": "99-1008",
+        "title": "Theta managers",
+        "employment_2024": 467.0,
+        "employment_2034": 535.9,
+        "growth_numeric": 68.9,
+        "growth_percent": 14.8,
+        "labor_force_exit_rate": 2.8,
+        "occupational_transfer_rate": 2.3,
+        "total_separation_rate": 5.1,
+        "labor_force_exits": 13.1,
+        "occupational_transfers": 10.7,
+        "total_separations": 23.8,
+        "annual_openings": 47.6
+      },
+      "education": {
+        "attainment": {
+          "soc_code": "99-1008",
+          "title": "Theta managers",
+          "distribution": {
+            "Less than high school diploma": 1.2,
+            "High school diploma or equivalent": 4.6,
+            "Some college, no degree": 4.3,
+            "Associate's degree": 4.4,
+            "Bachelor's degree": 38.8,
+            "Master's degree": 34.6,
+            "Doctoral or professional degree": 13.2
+          },
+          "dominant_level": "Master's degree",
+          "dominant_percent": 38.8,
+          "graduate_percent": 47.8
+        },
+        "requirements": {
+          "soc_code": "99-1008",
+          "title": "Theta managers",
+          "typical_education": "Master's degree",
+          "work_experience": "Less than 5 years",
+          "on_the_job_training": "None"
+        }
+      },
+      "skills": {
+        "ep_scores": {
+          "Adaptability": 4.5,
+          "Computers and information technology": 3.3,
+          "Creativity and innovation": 2.9,
+          "Critical and analytical thinking": 3.3,
+          "Customer service": 2.8,
+          "Detail oriented": 2.8,
+          "Fine motor": 1.7,
+          "Interpersonal": 3.2,
+          "Leadership": 3.3,
+          "Mathematics": 1.8,
+          "Mechanical": 3.0,
+          "Physical strength and stamina": 3.3,
+          "Problem solving and decision making": 4.1,
+          "Project management": 2.7,
+          "Science": 3.8,
+          "Speaking and listening": 3.2,
+          "Writing and reading": 3.8
+        },
+        "avg_intensity": 3.15,
+        "top_skills": [
+          [
+            "Adaptability",
+            4.5
+          ],
+          [
+            "Problem solving and decision making",
+            4.1
+          ],
+          [
+            "Science",
+            3.8
+          ],
+          [
+            "Writing and reading",
+            3.8
+          ],
+          [
+            "Computers and information technology",
+            3.3
+          ]
+        ],
+        "bottom_skills": [
+          [
+            "Fine motor",
+            1.7
+          ],
+          [
+            "Mathematics",
+            1.8
+          ],
+          [
+            "Project management",
+            2.7
+          ]
+        ]
+      },
+      "pa_wages": {
+        "pennsylvania": {
+          "area_code": "42",
+          "area_name": "Pennsylvania",
+          "naics": "62",
+          "naics_title": "Health Care and Social Assistance",
+          "industry_group": "sector",
+          "soc_code": "99-1008",
+          "title": "Theta managers",
+          "employment": 2037,
+          "employment_rse": 5.8,
+          "pct_of_industry": 0.39,
+          "mean_wage": 109681,
+          "median_wage": 107531,
+          "wage_pct10": 69895,
+          "wage_pct25": 88175,
+          "wage_pct75": 123660,
+          "wage_pct90": 139790,
+          "hourly_mean": 52.73,
+          "hourly_median": 51.7
+        },
+        "state_count": 52,
+        "pa_wage_rank": 19,
+        "pa_subindustries": []
+      },
+      "enrollment": {
+        "et_series": {
+          "years": [
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "headcount": [
+            60,
+            65,
+            70,
+            75,
+            80,
+            83,
+            95,
+            112,
+            135,
+            146
+          ],
+          "fte": [
+            60.0,
+            65.0,
+            70.0,
+            75.0,
+            80.0,
+            83.0,
+            95.0,
+            112.0,
+            135.0,
+            146.0
+          ],
+          "tuition": [
+            1012011,
+            1150159,
+            875776,
+            1011686,
+            1227875,
+            1203255,
+            1479792,
+            1759577,
+            2248312,
+            2085211
+          ],
+          "in_state": [
+            19,
+            13,
+            18,
+            17,
+            21,
+            13,
+            32,
+            19,
+            40,
+            40
+          ],
+          "out_of_state": [
+            42,
+            43,
+            48,
+            57,
+            54,
+            60,
+            74,
+            83,
+            88,
+            103
+          ]
+        },
+        "gross_tuition": {
+          "ay_labels": [
+            "AY21",
+            "AY22",
+            "AY23",
+            "AY24",
+            "AY25",
+            "AY26",
+            "AY27",
+            "AY28",
+            "AY29",
+            "AY30"
+          ],
+          "enrollment": [
+            83,
+            95,
+            112,
+            135,
+            146,
+            158,
+            170,
+            180,
+            190,
+            200
+          ],
+          "revenue": [
+            1800000,
+            2100000,
+            2500000,
+            3000000,
+            3200000,
+            3400000,
+            3600000,
+            3800000,
+            4000000,
+            4200000
+          ],
+          "revenue_per_student": [
+            21687,
+            22105,
+            22321,
+            22222,
+            21918,
+            21519,
+            21176,
+            21111,
+            21053,
+            21000
+          ]
+        }
+      },
+      "admissions": {
+        "years": [
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "annual": {
+          "2021": {
+            "terms": {
+              "Fall": {
+                "applied": 729,
+                "admitted": 387,
+                "enrolled": 149
+              }
+            },
+            "total_applied": 729,
+            "total_admitted": 387,
+            "total_enrolled": 149,
+            "selectivity_pct": 53.1,
+            "yield_pct": 38.5
+          },
+          "2022": {
+            "terms": {
+              "Fall": {
+                "applied": 628,
+                "admitted": 389,
+                "enrolled": 189
+              }
+            },
+            "total_applied": 628,
+            "total_admitted": 389,
+            "total_enrolled": 189,
+            "selectivity_pct": 61.9,
+            "yield_pct": 48.6
+          },
+          "2023": {
+            "terms": {
+              "Fall": {
+                "applied": 555,
+                "admitted": 233,
+                "enrolled": 96
+              }
+            },
+            "total_applied": 555,
+            "total_admitted": 233,
+            "total_enrolled": 96,
+            "selectivity_pct": 42.0,
+            "yield_pct": 41.2
+          },
+          "2024": {
+            "terms": {
+              "Fall": {
+                "applied": 455,
+                "admitted": 279,
+                "enrolled": 138
+              }
+            },
+            "total_applied": 455,
+            "total_admitted": 279,
+            "total_enrolled": 138,
+            "selectivity_pct": 61.3,
+            "yield_pct": 49.5
+          }
+        }
+      },
+      "financials": {
+        "gross_tuition": 3200000,
+        "adjusted_tuition": 2000000,
+        "total_compensation": 890000,
+        "total_expenses": 1350000,
+        "net_income": 1850000,
+        "overhead": 700000,
+        "department": "DEPT_5",
+        "source_file": "DEPT_5_program.xlsx"
+      },
+      "retention": {
+        "cohort_data": [
+          {
+            "plan_code": "PROG_H-PLAN",
+            "first_enrolled_term": "2211",
+            "compare_term": "2221",
+            "retained": 20,
+            "not_retained": 4,
+            "total": 24,
+            "retention_pct": 83.3
+          },
+          {
+            "plan_code": "PROG_H-PLAN",
+            "first_enrolled_term": "2221",
+            "compare_term": "2231",
+            "retained": 36,
+            "not_retained": 3,
+            "total": 39,
+            "retention_pct": 92.3
+          },
+          {
+            "plan_code": "PROG_H-PLAN",
+            "first_enrolled_term": "2231",
+            "compare_term": "2241",
+            "retained": 55,
+            "not_retained": 1,
+            "total": 56,
+            "retention_pct": 98.2
+          },
+          {
+            "plan_code": "PROG_H-PLAN",
+            "first_enrolled_term": "2241",
+            "compare_term": "2251",
+            "retained": 41,
+            "not_retained": 7,
+            "total": 48,
+            "retention_pct": 85.4
+          },
+          {
+            "plan_code": "PROG_H-PLAN",
+            "first_enrolled_term": "2251",
+            "compare_term": "2261",
+            "retained": 57,
+            "not_retained": 7,
+            "total": 64,
+            "retention_pct": 89.1
+          }
+        ]
+      },
+      "faculty": {
+        "department": "DEPT_6",
+        "department_total_faculty": 18,
+        "department_ft_faculty": 8,
+        "department_pt_faculty": 10,
+        "department_tenure_track": 3,
+        "sharing_note": "Small department",
+        "programs_sharing": [
+          "PROG_H"
+        ]
+      },
+      "outcomes": {},
+      "peers": {
+        "competitors": [
+          {
+            "school": "Riverdale University",
+            "tier": "national",
+            "raw_label": "Riverdale University (national)"
+          },
+          {
+            "school": "Pacific Coast University",
+            "tier": "national",
+            "raw_label": "Pacific Coast University (national)"
+          },
+          {
+            "school": "Capital City University",
+            "tier": "national",
+            "raw_label": "Capital City University (national)"
+          },
+          {
+            "school": "Great Lakes University",
+            "tier": "national",
+            "raw_label": "Great Lakes University (national)"
+          },
+          {
+            "school": "Hillcrest University",
+            "tier": "regional",
+            "raw_label": "Hillcrest University (regional)"
+          },
+          {
+            "school": "Lakeshore University",
+            "tier": "regional",
+            "raw_label": "Lakeshore University (regional)"
+          },
+          {
+            "school": "Brookfield University",
+            "tier": "regional",
+            "raw_label": "Brookfield University (regional)"
+          },
+          {
+            "school": "Crossroads University",
+            "tier": "regional",
+            "raw_label": "Crossroads University (regional)"
+          },
+          {
+            "school": "Mapleton University",
+            "tier": "local",
+            "raw_label": "Mapleton University (local)"
+          },
+          {
+            "school": "Clarkton University",
+            "tier": "local",
+            "raw_label": "Clarkton University (local)"
+          },
+          {
+            "school": "Fairview University",
+            "tier": "local",
+            "raw_label": "Fairview University (local)"
+          }
+        ]
+      },
+      "ipeds": {
+        "national_completions": {
+          "2017-18": 4200,
+          "2018-19": 4400,
+          "2019-20": 4600,
+          "2020-21": 4800,
+          "2021-22": 5000,
+          "2022-23": 5200,
+          "2023-24": 5500
+        },
+        "pitt_completions": {
+          "2017-18": 22,
+          "2018-19": 25,
+          "2019-20": 28,
+          "2020-21": 30,
+          "2021-22": 33,
+          "2022-23": 35,
+          "2023-24": 38
+        },
+        "pa_competitors": [
+          {
+            "unitid": "900001",
+            "school": "Ridgeview University",
+            "city": "Philadelphia",
+            "state": "PA",
+            "control": "2",
+            "awards": 84,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 1
+          },
+          {
+            "unitid": "900004",
+            "school": "Brookfield University",
+            "city": "Allentown",
+            "state": "PA",
+            "control": "2",
+            "awards": 78,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 2
+          },
+          {
+            "unitid": "900003",
+            "school": "Hillcrest University",
+            "city": "Harrisburg",
+            "state": "PA",
+            "control": "2",
+            "awards": 43,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 3
+          },
+          {
+            "unitid": "215293",
+            "school": "University of Pittsburgh-Pittsburgh Campus",
+            "city": "Pittsburgh",
+            "state": "PA",
+            "control": "1",
+            "awards": 38,
+            "is_pitt": true,
+            "year": "2023-24",
+            "pa_rank": 4
+          },
+          {
+            "unitid": "900002",
+            "school": "Valley Forge University",
+            "city": "Erie",
+            "state": "PA",
+            "control": "2",
+            "awards": 26,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 5
+          }
+        ]
+      },
+      "ranking": {
+        "ranked": false,
+        "us_news_category": null,
+        "pitt_rank": null,
+        "pitt_rank_tied": false,
+        "total_programs_ranked": null,
+        "previous_rank": null,
+        "previous_edition": null,
+        "top_10": []
+      }
+    },
+    "PROG_I": {
+      "key": "PROG_I",
+      "full_name": "Program Iota",
+      "department": "DEPT_6",
+      "degree_level": "Master's",
+      "primary_soc": "99-1009",
+      "secondary_soc": "99-2001",
+      "projection": {
+        "soc_code": "99-1009",
+        "title": "Iota technologists",
+        "employment_2024": 88.4,
+        "employment_2034": 85.2,
+        "growth_numeric": -3.2,
+        "growth_percent": -3.6,
+        "annual_openings": 6.8,
+        "median_wage": 52000,
+        "typical_education": "Master's degree",
+        "work_experience": "None",
+        "on_the_job_training": "None",
+        "percent_self_employed": 3.4
+      },
+      "separation": {
+        "soc_code": "99-1009",
+        "title": "Iota technologists",
+        "employment_2024": 88.4,
+        "employment_2034": 85.2,
+        "growth_numeric": -3.2,
+        "growth_percent": -3.6,
+        "labor_force_exit_rate": 3.5,
+        "occupational_transfer_rate": 2.8,
+        "total_separation_rate": 6.3,
+        "labor_force_exits": 3.1,
+        "occupational_transfers": 2.5,
+        "total_separations": 5.6,
+        "annual_openings": 6.8
+      },
+      "education": {
+        "attainment": {
+          "soc_code": "99-1009",
+          "title": "Iota technologists",
+          "distribution": {
+            "Less than high school diploma": 1.0,
+            "High school diploma or equivalent": 6.0,
+            "Some college, no degree": 9.0,
+            "Associate's degree": 6.6,
+            "Bachelor's degree": 33.9,
+            "Master's degree": 30.8,
+            "Doctoral or professional degree": 14.5
+          },
+          "dominant_level": "Master's degree",
+          "dominant_percent": 33.9,
+          "graduate_percent": 45.3
+        },
+        "requirements": {
+          "soc_code": "99-1009",
+          "title": "Iota technologists",
+          "typical_education": "Master's degree",
+          "work_experience": "None",
+          "on_the_job_training": "None"
+        }
+      },
+      "skills": {
+        "ep_scores": {
+          "Adaptability": 4.5,
+          "Computers and information technology": 3.8,
+          "Creativity and innovation": 3.4,
+          "Critical and analytical thinking": 4.4,
+          "Customer service": 4.0,
+          "Detail oriented": 3.5,
+          "Fine motor": 1.8,
+          "Interpersonal": 3.3,
+          "Leadership": 3.6,
+          "Mathematics": 2.2,
+          "Mechanical": 2.4,
+          "Physical strength and stamina": 3.9,
+          "Problem solving and decision making": 3.4,
+          "Project management": 3.4,
+          "Science": 3.5,
+          "Speaking and listening": 3.2,
+          "Writing and reading": 2.6
+        },
+        "avg_intensity": 3.35,
+        "top_skills": [
+          [
+            "Adaptability",
+            4.5
+          ],
+          [
+            "Critical and analytical thinking",
+            4.4
+          ],
+          [
+            "Customer service",
+            4.0
+          ],
+          [
+            "Physical strength and stamina",
+            3.9
+          ],
+          [
+            "Computers and information technology",
+            3.8
+          ]
+        ],
+        "bottom_skills": [
+          [
+            "Fine motor",
+            1.8
+          ],
+          [
+            "Mathematics",
+            2.2
+          ],
+          [
+            "Mechanical",
+            2.4
+          ]
+        ]
+      },
+      "pa_wages": {
+        "pennsylvania": {
+          "area_code": "42",
+          "area_name": "Pennsylvania",
+          "naics": "62",
+          "naics_title": "Health Care and Social Assistance",
+          "industry_group": "sector",
+          "soc_code": "99-1009",
+          "title": "Iota technologists",
+          "employment": 8701,
+          "employment_rse": 4.7,
+          "pct_of_industry": 0.83,
+          "mean_wage": 54207,
+          "median_wage": 53145,
+          "wage_pct10": 34544,
+          "wage_pct25": 43578,
+          "wage_pct75": 61116,
+          "wage_pct90": 69088,
+          "hourly_mean": 26.06,
+          "hourly_median": 25.55
+        },
+        "state_count": 52,
+        "pa_wage_rank": 25,
+        "pa_subindustries": []
+      },
+      "enrollment": {
+        "et_series": {
+          "years": [
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "headcount": [
+            25,
+            28,
+            30,
+            32,
+            28,
+            7,
+            10,
+            12,
+            15,
+            17
+          ],
+          "fte": [
+            25.0,
+            28.0,
+            30.0,
+            32.0,
+            28.0,
+            7.0,
+            10.0,
+            12.0,
+            15.0,
+            17.0
+          ],
+          "tuition": [
+            317388,
+            465788,
+            515684,
+            542386,
+            336193,
+            120513,
+            147719,
+            147903,
+            226660,
+            267509
+          ],
+          "in_state": [
+            6,
+            6,
+            4,
+            6,
+            4,
+            1,
+            3,
+            2,
+            2,
+            4
+          ],
+          "out_of_state": [
+            20,
+            22,
+            21,
+            20,
+            20,
+            4,
+            8,
+            8,
+            12,
+            13
+          ]
+        },
+        "gross_tuition": {
+          "ay_labels": [
+            "AY21",
+            "AY22",
+            "AY23",
+            "AY24",
+            "AY25",
+            "AY26",
+            "AY27",
+            "AY28",
+            "AY29",
+            "AY30"
+          ],
+          "enrollment": [
+            7,
+            10,
+            12,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27
+          ],
+          "revenue": [
+            130000,
+            190000,
+            230000,
+            285000,
+            322000,
+            360000,
+            400000,
+            440000,
+            480000,
+            520000
+          ],
+          "revenue_per_student": [
+            18571,
+            19000,
+            19167,
+            19000,
+            18941,
+            18947,
+            19048,
+            19130,
+            19200,
+            19259
+          ]
+        }
+      },
+      "admissions": {
+        "years": [
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "annual": {
+          "2021": {
+            "terms": {
+              "Fall": {
+                "applied": 465,
+                "admitted": 208,
+                "enrolled": 96
+              }
+            },
+            "total_applied": 465,
+            "total_admitted": 208,
+            "total_enrolled": 96,
+            "selectivity_pct": 44.7,
+            "yield_pct": 46.2
+          },
+          "2022": {
+            "terms": {
+              "Fall": {
+                "applied": 1192,
+                "admitted": 634,
+                "enrolled": 237
+              }
+            },
+            "total_applied": 1192,
+            "total_admitted": 634,
+            "total_enrolled": 237,
+            "selectivity_pct": 53.2,
+            "yield_pct": 37.4
+          },
+          "2023": {
+            "terms": {
+              "Fall": {
+                "applied": 1138,
+                "admitted": 730,
+                "enrolled": 235
+              }
+            },
+            "total_applied": 1138,
+            "total_admitted": 730,
+            "total_enrolled": 235,
+            "selectivity_pct": 64.1,
+            "yield_pct": 32.2
+          },
+          "2024": {
+            "terms": {
+              "Fall": {
+                "applied": 446,
+                "admitted": 179,
+                "enrolled": 94
+              }
+            },
+            "total_applied": 446,
+            "total_admitted": 179,
+            "total_enrolled": 94,
+            "selectivity_pct": 40.1,
+            "yield_pct": 52.5
+          }
+        }
+      },
+      "financials": {
+        "gross_tuition": 322000,
+        "adjusted_tuition": 201250,
+        "total_compensation": 180000,
+        "total_expenses": 420000,
+        "net_income": -98000,
+        "overhead": 150000,
+        "department": "DEPT_6",
+        "source_file": "DEPT_6_program.xlsx"
+      },
+      "retention": {
+        "cohort_data": [
+          {
+            "plan_code": "PROG_I-PLAN",
+            "first_enrolled_term": "2211",
+            "compare_term": "2221",
+            "retained": 50,
+            "not_retained": 2,
+            "total": 52,
+            "retention_pct": 96.2
+          },
+          {
+            "plan_code": "PROG_I-PLAN",
+            "first_enrolled_term": "2221",
+            "compare_term": "2231",
+            "retained": 27,
+            "not_retained": 1,
+            "total": 28,
+            "retention_pct": 96.4
+          },
+          {
+            "plan_code": "PROG_I-PLAN",
+            "first_enrolled_term": "2231",
+            "compare_term": "2241",
+            "retained": 35,
+            "not_retained": 2,
+            "total": 37,
+            "retention_pct": 94.6
+          },
+          {
+            "plan_code": "PROG_I-PLAN",
+            "first_enrolled_term": "2241",
+            "compare_term": "2251",
+            "retained": 41,
+            "not_retained": 5,
+            "total": 46,
+            "retention_pct": 89.1
+          },
+          {
+            "plan_code": "PROG_I-PLAN",
+            "first_enrolled_term": "2251",
+            "compare_term": "2261",
+            "retained": 46,
+            "not_retained": 6,
+            "total": 52,
+            "retention_pct": 88.5
+          }
+        ]
+      },
+      "faculty": {
+        "department": "DEPT_3",
+        "department_total_faculty": 12,
+        "department_ft_faculty": 5,
+        "department_pt_faculty": 7,
+        "department_tenure_track": 2,
+        "sharing_note": "Online program",
+        "programs_sharing": [
+          "PROG_I"
+        ]
+      },
+      "outcomes": {},
+      "peers": {
+        "competitors": [
+          {
+            "school": "Northfield University",
+            "tier": "national",
+            "raw_label": "Northfield University (national)"
+          },
+          {
+            "school": "Pacific Coast University",
+            "tier": "national",
+            "raw_label": "Pacific Coast University (national)"
+          },
+          {
+            "school": "Westlake State University",
+            "tier": "national",
+            "raw_label": "Westlake State University (national)"
+          },
+          {
+            "school": "Riverdale University",
+            "tier": "national",
+            "raw_label": "Riverdale University (national)"
+          },
+          {
+            "school": "Summit University",
+            "tier": "regional",
+            "raw_label": "Summit University (regional)"
+          },
+          {
+            "school": "Ridgeview University",
+            "tier": "regional",
+            "raw_label": "Ridgeview University (regional)"
+          },
+          {
+            "school": "Hillcrest University",
+            "tier": "regional",
+            "raw_label": "Hillcrest University (regional)"
+          },
+          {
+            "school": "Brookfield University",
+            "tier": "regional",
+            "raw_label": "Brookfield University (regional)"
+          },
+          {
+            "school": "Clarkton University",
+            "tier": "local",
+            "raw_label": "Clarkton University (local)"
+          },
+          {
+            "school": "Fairview University",
+            "tier": "local",
+            "raw_label": "Fairview University (local)"
+          },
+          {
+            "school": "Mapleton University",
+            "tier": "local",
+            "raw_label": "Mapleton University (local)"
+          }
+        ]
+      },
+      "ipeds": {
+        "national_completions": {
+          "2017-18": 1800,
+          "2018-19": 1850,
+          "2019-20": 1900,
+          "2020-21": 1950,
+          "2021-22": 2000,
+          "2022-23": 2050,
+          "2023-24": 2100
+        },
+        "pitt_completions": {
+          "2017-18": 5,
+          "2018-19": 6,
+          "2019-20": 7,
+          "2020-21": 8,
+          "2021-22": 9,
+          "2022-23": 10,
+          "2023-24": 11
+        },
+        "pa_competitors": [
+          {
+            "unitid": "900001",
+            "school": "Ridgeview University",
+            "city": "Philadelphia",
+            "state": "PA",
+            "control": "2",
+            "awards": 215,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 1
+          },
+          {
+            "unitid": "900002",
+            "school": "Valley Forge University",
+            "city": "Erie",
+            "state": "PA",
+            "control": "2",
+            "awards": 159,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 2
+          },
+          {
+            "unitid": "900004",
+            "school": "Brookfield University",
+            "city": "Allentown",
+            "state": "PA",
+            "control": "2",
+            "awards": 136,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 3
+          },
+          {
+            "unitid": "900003",
+            "school": "Hillcrest University",
+            "city": "Harrisburg",
+            "state": "PA",
+            "control": "2",
+            "awards": 116,
+            "is_pitt": false,
+            "year": "2023-24",
+            "pa_rank": 4
+          },
+          {
+            "unitid": "215293",
+            "school": "University of Pittsburgh-Pittsburgh Campus",
+            "city": "Pittsburgh",
+            "state": "PA",
+            "control": "1",
+            "awards": 11,
+            "is_pitt": true,
+            "year": "2023-24",
+            "pa_rank": 5
+          }
+        ]
+      },
+      "ranking": {
+        "ranked": false,
+        "us_news_category": null,
+        "pitt_rank": null,
+        "pitt_rank_tied": false,
+        "total_programs_ranked": null,
+        "previous_rank": null,
+        "previous_edition": null,
+        "top_10": []
+      }
+    }
+  },
+  "context": {
+    "industry": {
+      "total_employment_2024": 169956.1,
+      "total_employment_2034": 175167.9,
+      "total_growth_pct": 3.1,
+      "healthcare_employment_2024": 22527.4,
+      "healthcare_employment_2034": 24489.1,
+      "healthcare_growth_numeric": 1961.7,
+      "healthcare_growth_pct": 8.7,
+      "healthcare_cagr": 0.8,
+      "healthcare_share_pct": 13.3
+    },
+    "economy": {
+      "population_2024": 340.3,
+      "population_2034": 349.8,
+      "population_cagr": 0.3,
+      "labor_force_2024": 168.1,
+      "labor_force_2034": 173.5,
+      "participation_rate_2024": 62.6,
+      "participation_rate_2034": 61.1,
+      "unemployment_rate_2024": 4.0,
+      "unemployment_rate_2034": 4.1,
+      "productivity_cagr_2024_2034": 1.7
+    },
+    "labor_force": {
+      "total_2024": 168104.0,
+      "total_2034": 173454.0,
+      "total_change": 5350.0,
+      "total_growth_pct": 3.2,
+      "age_groups": []
+    },
+    "healthcare_growth_pct": 8.7,
+    "total_employment_growth_pct": 3.1,
+    "labor_force_growth_pct": 3.2,
+    "unemployment_rate_2024": 4.0,
+    "unemployment_rate_2034": 4.1
+  },
+  "benchmarks": {
+    "all_occupations": {
+      "title": "Total, all occupations",
+      "soc_code": "00-0000",
+      "employment_2024": 169956.1,
+      "employment_2034": 175167.9,
+      "growth_percent": 3.1,
+      "median_wage": 49500.0
+    },
+    "healthcare_practitioners": {
+      "title": "Healthcare practitioners and technical occupations",
+      "soc_code": "29-0000",
+      "employment_2024": 10067.5,
+      "employment_2034": 10794.4,
+      "growth_percent": 7.2,
+      "median_wage": 83090.0
+    },
+    "healthcare_support": {
+      "title": "Healthcare support occupations",
+      "soc_code": "31-0000",
+      "employment_2024": 7982.8,
+      "employment_2034": 8971.1,
+      "growth_percent": 12.4,
+      "median_wage": 37180.0
+    },
+    "all_major_groups": []
+  },
+  "skill_comparison": {
+    "PROG_I": {
+      "Adaptability": 4.5,
+      "Computers and information technology": 3.8,
+      "Creativity and innovation": 3.4,
+      "Critical and analytical thinking": 4.4,
+      "Customer service": 4.0,
+      "Detail oriented": 3.5,
+      "Fine motor": 1.8,
+      "Interpersonal": 3.3,
+      "Leadership": 3.6,
+      "Mathematics": 2.2,
+      "Mechanical": 2.4,
+      "Physical strength and stamina": 3.9,
+      "Problem solving and decision making": 3.4,
+      "Project management": 3.4,
+      "Science": 3.5,
+      "Speaking and listening": 3.2,
+      "Writing and reading": 2.6
+    },
+    "PROG_C": {
+      "Adaptability": 3.8,
+      "Computers and information technology": 3.1,
+      "Creativity and innovation": 3.2,
+      "Critical and analytical thinking": 4.1,
+      "Customer service": 3.5,
+      "Detail oriented": 4.0,
+      "Fine motor": 1.6,
+      "Interpersonal": 3.7,
+      "Leadership": 3.0,
+      "Mathematics": 2.8,
+      "Mechanical": 1.8,
+      "Physical strength and stamina": 2.8,
+      "Problem solving and decision making": 3.8,
+      "Project management": 3.1,
+      "Science": 2.9,
+      "Speaking and listening": 2.9,
+      "Writing and reading": 3.9
+    },
+    "PROG_G": {
+      "Adaptability": 4.4,
+      "Computers and information technology": 3.4,
+      "Creativity and innovation": 3.9,
+      "Critical and analytical thinking": 3.7,
+      "Customer service": 3.9,
+      "Detail oriented": 2.8,
+      "Fine motor": 2.3,
+      "Interpersonal": 4.3,
+      "Leadership": 2.9,
+      "Mathematics": 2.5,
+      "Mechanical": 1.9,
+      "Physical strength and stamina": 3.5,
+      "Problem solving and decision making": 4.2,
+      "Project management": 3.7,
+      "Science": 3.3,
+      "Speaking and listening": 2.6,
+      "Writing and reading": 3.3
+    },
+    "PROG_E": {
+      "Adaptability": 4.0,
+      "Computers and information technology": 3.0,
+      "Creativity and innovation": 3.7,
+      "Critical and analytical thinking": 3.8,
+      "Customer service": 4.0,
+      "Detail oriented": 2.7,
+      "Fine motor": 2.8,
+      "Interpersonal": 3.4,
+      "Leadership": 2.6,
+      "Mathematics": 2.1,
+      "Mechanical": 2.2,
+      "Physical strength and stamina": 3.7,
+      "Problem solving and decision making": 4.1,
+      "Project management": 3.9,
+      "Science": 3.6,
+      "Speaking and listening": 2.8,
+      "Writing and reading": 3.1
+    },
+    "PROG_F": {
+      "Adaptability": 3.5,
+      "Computers and information technology": 2.9,
+      "Creativity and innovation": 3.5,
+      "Critical and analytical thinking": 4.2,
+      "Customer service": 3.3,
+      "Detail oriented": 3.4,
+      "Fine motor": 1.8,
+      "Interpersonal": 3.3,
+      "Leadership": 2.9,
+      "Mathematics": 1.8,
+      "Mechanical": 1.9,
+      "Physical strength and stamina": 3.3,
+      "Problem solving and decision making": 3.4,
+      "Project management": 2.8,
+      "Science": 3.5,
+      "Speaking and listening": 3.6,
+      "Writing and reading": 2.6
+    }
+  },
+  "rankings": {
+    "rankings_edition": "2026",
+    "rankings_source": "National Graduate Program Rankings (Synthetic)",
+    "rankings_release_date": "2026-04-07",
+    "programs": {
+      "PROG_A": {
+        "ranked": true,
+        "us_news_category": "Program Alpha Studies",
+        "pitt_rank": 6,
+        "pitt_rank_tied": true,
+        "total_programs_ranked": 295,
+        "previous_rank": 8,
+        "previous_edition": "2025",
+        "top_10": [
+          {
+            "rank": 1,
+            "school": "Heartland University",
+            "tied": false
+          },
+          {
+            "rank": 2,
+            "school": "Capital City University",
+            "tied": false
+          },
+          {
+            "rank": 3,
+            "school": "Riverdale University",
+            "tied": true
+          },
+          {
+            "rank": 3,
+            "school": "Westlake State University",
+            "tied": true
+          },
+          {
+            "rank": 5,
+            "school": "Northfield University",
+            "tied": false
+          },
+          {
+            "rank": 6,
+            "school": "University of Pittsburgh",
+            "tied": true
+          },
+          {
+            "rank": 6,
+            "school": "Prairie State University",
+            "tied": true
+          },
+          {
+            "rank": 8,
+            "school": "Great Lakes University",
+            "tied": false
+          },
+          {
+            "rank": 9,
+            "school": "Sunbelt University",
+            "tied": false
+          },
+          {
+            "rank": 10,
+            "school": "Mountain View University",
+            "tied": false
+          }
+        ]
+      },
+      "PROG_B": {
+        "ranked": true,
+        "us_news_category": "Program Beta Studies",
+        "pitt_rank": 6,
+        "pitt_rank_tied": true,
+        "total_programs_ranked": 80,
+        "previous_rank": 7,
+        "previous_edition": "2025",
+        "top_10": [
+          {
+            "rank": 1,
+            "school": "Heartland University",
+            "tied": false
+          },
+          {
+            "rank": 2,
+            "school": "Riverdale University",
+            "tied": false
+          },
+          {
+            "rank": 3,
+            "school": "Pacific Coast University",
+            "tied": false
+          },
+          {
+            "rank": 4,
+            "school": "Great Lakes University",
+            "tied": true
+          },
+          {
+            "rank": 4,
+            "school": "Midlands University",
+            "tied": true
+          },
+          {
+            "rank": 6,
+            "school": "University of Pittsburgh",
+            "tied": true
+          },
+          {
+            "rank": 6,
+            "school": "Sunbelt University",
+            "tied": true
+          },
+          {
+            "rank": 8,
+            "school": "Capital City University",
+            "tied": false
+          },
+          {
+            "rank": 9,
+            "school": "Lakeshore University",
+            "tied": false
+          },
+          {
+            "rank": 10,
+            "school": "Prairie State University",
+            "tied": false
+          }
+        ]
+      },
+      "PROG_C": {
+        "ranked": false,
+        "us_news_category": null,
+        "pitt_rank": null,
+        "pitt_rank_tied": false,
+        "total_programs_ranked": null,
+        "previous_rank": null,
+        "previous_edition": null,
+        "top_10": []
+      },
+      "PROG_D": {
+        "ranked": false,
+        "us_news_category": null,
+        "pitt_rank": null,
+        "pitt_rank_tied": false,
+        "total_programs_ranked": null,
+        "previous_rank": null,
+        "previous_edition": null,
+        "top_10": []
+      },
+      "PROG_E": {
+        "ranked": true,
+        "us_news_category": "Program Epsilon Studies",
+        "pitt_rank": 1,
+        "pitt_rank_tied": true,
+        "total_programs_ranked": 289,
+        "previous_rank": 3,
+        "previous_edition": "2025",
+        "top_10": [
+          {
+            "rank": 1,
+            "school": "Northfield University",
+            "tied": true
+          },
+          {
+            "rank": 1,
+            "school": "Westlake State University",
+            "tied": true
+          },
+          {
+            "rank": 1,
+            "school": "University of Pittsburgh",
+            "tied": true
+          },
+          {
+            "rank": 1,
+            "school": "Pacific Coast University",
+            "tied": true
+          },
+          {
+            "rank": 5,
+            "school": "Midlands University",
+            "tied": true
+          },
+          {
+            "rank": 5,
+            "school": "Great Lakes University",
+            "tied": true
+          },
+          {
+            "rank": 5,
+            "school": "Capital City University",
+            "tied": true
+          },
+          {
+            "rank": 8,
+            "school": "Sunbelt University",
+            "tied": true
+          },
+          {
+            "rank": 8,
+            "school": "Mountain View University",
+            "tied": true
+          },
+          {
+            "rank": 10,
+            "school": "Prairie State University",
+            "tied": false
+          }
+        ]
+      },
+      "PROG_F": {
+        "ranked": true,
+        "us_news_category": "Program Zeta Studies",
+        "pitt_rank": 8,
+        "pitt_rank_tied": false,
+        "total_programs_ranked": 278,
+        "previous_rank": 9,
+        "previous_edition": "2025",
+        "top_10": [
+          {
+            "rank": 1,
+            "school": "Pacific Coast University",
+            "tied": true
+          },
+          {
+            "rank": 1,
+            "school": "Riverdale University",
+            "tied": true
+          },
+          {
+            "rank": 2,
+            "school": "Heartland University",
+            "tied": false
+          },
+          {
+            "rank": 3,
+            "school": "Capital City University",
+            "tied": false
+          },
+          {
+            "rank": 4,
+            "school": "Sunbelt University",
+            "tied": true
+          },
+          {
+            "rank": 4,
+            "school": "Great Lakes University",
+            "tied": true
+          },
+          {
+            "rank": 6,
+            "school": "Northfield University",
+            "tied": true
+          },
+          {
+            "rank": 6,
+            "school": "Mountain View University",
+            "tied": true
+          },
+          {
+            "rank": 8,
+            "school": "University of Pittsburgh",
+            "tied": false
+          },
+          {
+            "rank": 9,
+            "school": "Lakeshore University",
+            "tied": true
+          }
+        ]
+      },
+      "PROG_G": {
+        "ranked": true,
+        "us_news_category": "Program Eta Studies",
+        "pitt_rank": 26,
+        "pitt_rank_tied": false,
+        "total_programs_ranked": 310,
+        "previous_rank": 28,
+        "previous_edition": "2025",
+        "top_10": [
+          {
+            "rank": 1,
+            "school": "Northfield University",
+            "tied": false
+          },
+          {
+            "rank": 2,
+            "school": "Heartland University",
+            "tied": false
+          },
+          {
+            "rank": 3,
+            "school": "Pacific Coast University",
+            "tied": false
+          },
+          {
+            "rank": 4,
+            "school": "Westlake State University",
+            "tied": false
+          },
+          {
+            "rank": 5,
+            "school": "Capital City University",
+            "tied": false
+          },
+          {
+            "rank": 6,
+            "school": "Great Lakes University",
+            "tied": false
+          },
+          {
+            "rank": 7,
+            "school": "Sunbelt University",
+            "tied": false
+          },
+          {
+            "rank": 8,
+            "school": "Mountain View University",
+            "tied": false
+          },
+          {
+            "rank": 9,
+            "school": "Riverdale University",
+            "tied": false
+          },
+          {
+            "rank": 10,
+            "school": "Prairie State University",
+            "tied": false
+          }
+        ]
+      },
+      "PROG_H": {
+        "ranked": false,
+        "us_news_category": null,
+        "pitt_rank": null,
+        "pitt_rank_tied": false,
+        "total_programs_ranked": null,
+        "previous_rank": null,
+        "previous_edition": null,
+        "top_10": []
+      },
+      "PROG_I": {
+        "ranked": false,
+        "us_news_category": null,
+        "pitt_rank": null,
+        "pitt_rank_tied": false,
+        "total_programs_ranked": null,
+        "previous_rank": null,
+        "previous_edition": null,
+        "top_10": []
+      }
+    }
+  },
+  "ipeds": {
+    "spigot_summary": {
+      "PROG_A": {
+        "latest_graduates": 2890,
+        "bls_annual_openings": 13300,
+        "supply_ratio": 0.217,
+        "signal": "severe_undersupply",
+        "trend_pct": 11.2,
+        "trend_start": "2017-18",
+        "trend_end": "2023-24",
+        "trend_series": {
+          "2017-18": 2600,
+          "2018-19": 2700,
+          "2019-20": 2850,
+          "2020-21": 2780,
+          "2021-22": 3030,
+          "2022-23": 2990,
+          "2023-24": 2890
+        }
+      },
+      "PROG_B": {
+        "latest_graduates": 610,
+        "bls_annual_openings": 700,
+        "supply_ratio": 0.871,
+        "signal": "balanced",
+        "trend_pct": -3.2,
+        "trend_start": "2017-18",
+        "trend_end": "2023-24",
+        "trend_series": {
+          "2017-18": 630,
+          "2018-19": 670,
+          "2019-20": 690,
+          "2020-21": 620,
+          "2021-22": 580,
+          "2022-23": 625,
+          "2023-24": 610
+        }
+      },
+      "PROG_C": {
+        "latest_graduates": 2650,
+        "bls_annual_openings": 5400,
+        "supply_ratio": 0.491,
+        "signal": "severe_undersupply",
+        "trend_pct": -14.5,
+        "trend_start": "2017-18",
+        "trend_end": "2023-24",
+        "trend_series": {
+          "2017-18": 3100,
+          "2018-19": 3050,
+          "2019-20": 2900,
+          "2020-21": 2800,
+          "2021-22": 2750,
+          "2022-23": 2700,
+          "2023-24": 2650
+        }
+      },
+      "PROG_D": {
+        "latest_graduates": 850,
+        "bls_annual_openings": 3800,
+        "supply_ratio": 0.224,
+        "signal": "severe_undersupply",
+        "trend_pct": -29.2,
+        "trend_start": "2017-18",
+        "trend_end": "2023-24",
+        "trend_series": {
+          "2017-18": 1200,
+          "2018-19": 1150,
+          "2019-20": 1100,
+          "2020-21": 1050,
+          "2021-22": 980,
+          "2022-23": 920,
+          "2023-24": 850
+        }
+      },
+      "PROG_E": {
+        "latest_graduates": 6200,
+        "bls_annual_openings": 10500,
+        "supply_ratio": 0.59,
+        "signal": "undersupply",
+        "trend_pct": 19.2,
+        "trend_start": "2017-18",
+        "trend_end": "2023-24",
+        "trend_series": {
+          "2017-18": 5200,
+          "2018-19": 5400,
+          "2019-20": 5600,
+          "2020-21": 5800,
+          "2021-22": 6000,
+          "2022-23": 6100,
+          "2023-24": 6200
+        }
+      },
+      "PROG_F": {
+        "latest_graduates": 12700,
+        "bls_annual_openings": 13200,
+        "supply_ratio": 0.962,
+        "signal": "balanced",
+        "trend_pct": 11.4,
+        "trend_start": "2017-18",
+        "trend_end": "2023-24",
+        "trend_series": {
+          "2017-18": 11400,
+          "2018-19": 11900,
+          "2019-20": 12200,
+          "2020-21": 12800,
+          "2021-22": 12950,
+          "2022-23": 12950,
+          "2023-24": 12700
+        }
+      },
+      "PROG_G": {
+        "latest_graduates": 11700,
+        "bls_annual_openings": 12000,
+        "supply_ratio": 0.975,
+        "signal": "balanced",
+        "trend_pct": 19.4,
+        "trend_start": "2017-18",
+        "trend_end": "2023-24",
+        "trend_series": {
+          "2017-18": 9800,
+          "2018-19": 10200,
+          "2019-20": 10500,
+          "2020-21": 10800,
+          "2021-22": 11100,
+          "2022-23": 11400,
+          "2023-24": 11700
+        }
+      },
+      "PROG_H": {
+        "latest_graduates": 5500,
+        "bls_annual_openings": 47600,
+        "supply_ratio": 0.116,
+        "signal": "severe_undersupply",
+        "trend_pct": 31.0,
+        "trend_start": "2017-18",
+        "trend_end": "2023-24",
+        "trend_series": {
+          "2017-18": 4200,
+          "2018-19": 4400,
+          "2019-20": 4600,
+          "2020-21": 4800,
+          "2021-22": 5000,
+          "2022-23": 5200,
+          "2023-24": 5500
+        }
+      },
+      "PROG_I": {
+        "latest_graduates": 2100,
+        "bls_annual_openings": 6800,
+        "supply_ratio": 0.309,
+        "signal": "severe_undersupply",
+        "trend_pct": 16.7,
+        "trend_start": "2017-18",
+        "trend_end": "2023-24",
+        "trend_series": {
+          "2017-18": 1800,
+          "2018-19": 1850,
+          "2019-20": 1900,
+          "2020-21": 1950,
+          "2021-22": 2000,
+          "2022-23": 2050,
+          "2023-24": 2100
+        }
+      }
+    },
+    "tuition_benchmarks": {},
+    "data_notes": {
+      "source": "Synthetic IPEDS Data",
+      "url": "https://nces.ed.gov/ipeds/"
+    },
+    "years_available": [
+      "2017-18",
+      "2018-19",
+      "2019-20",
+      "2020-21",
+      "2021-22",
+      "2022-23",
+      "2023-24"
+    ]
+  },
+  "scoring": {
+    "config": {
+      "thresholds": {
+        "green": 70.0,
+        "yellow": 40.0
+      },
+      "domain_weights": {
+        "demand": 0.5,
+        "institutional": 0.3,
+        "financial": 0.2
+      },
+      "demand_weights": {
+        "projected_growth": 0.25,
+        "annual_openings": 0.2,
+        "median_wage": 0.15,
+        "separation_rate": 0.15,
+        "supply_ratio": 0.15,
+        "skill_intensity": 0.1
+      },
+      "institutional_weights": {
+        "enrollment_trend": 0.34,
+        "gross_tuition": 0.33,
+        "revenue_per_student": 0.33
+      },
+      "financial_weights": {
+        "net_income": 0.5,
+        "cost_efficiency": 0.5
+      }
+    },
+    "programs": {
+      "PROG_A": {
+        "key": "PROG_A",
+        "full_name": "Program Alpha",
+        "department": "DEPT_1",
+        "degree_level": "Master's",
+        "dimensions": {
+          "projected_growth": {
+            "name": "Projected Growth",
+            "domain": "demand",
+            "raw_value": 15.1,
+            "raw_label": "15.1%",
+            "score": 57.4,
+            "weight": 0.25,
+            "signal": "yellow"
+          },
+          "annual_openings": {
+            "name": "Annual Openings",
+            "domain": "demand",
+            "raw_value": 13.3,
+            "raw_label": "13.3K",
+            "score": 19.0,
+            "weight": 0.2,
+            "signal": "red"
+          },
+          "median_wage": {
+            "name": "Median Wage",
+            "domain": "demand",
+            "raw_value": 82000,
+            "raw_label": "$82,000",
+            "score": 43.3,
+            "weight": 0.15,
+            "signal": "yellow"
+          },
+          "separation_rate": {
+            "name": "Separation Rate",
+            "domain": "demand",
+            "raw_value": 3.2,
+            "raw_label": "3.2%",
+            "score": 12.0,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "supply_ratio": {
+            "name": "Supply Ratio",
+            "domain": "demand",
+            "raw_value": 0.217,
+            "raw_label": "0.22x",
+            "score": 10.8,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "skill_intensity": {
+            "name": "Skill Intensity",
+            "domain": "demand",
+            "raw_value": 3.01,
+            "raw_label": "3.01",
+            "score": 50.3,
+            "weight": 0.1,
+            "signal": "yellow"
+          },
+          "enrollment_trend": {
+            "name": "Enrollment Trend",
+            "domain": "institutional",
+            "raw_value": 0.0,
+            "raw_label": "0.0%",
+            "score": 50.0,
+            "weight": 0.34,
+            "signal": "yellow"
+          },
+          "gross_tuition": {
+            "name": "Gross Tuition",
+            "domain": "institutional",
+            "raw_value": 2450000,
+            "raw_label": "$2.5M",
+            "score": 13.6,
+            "weight": 0.33,
+            "signal": "red"
+          },
+          "revenue_per_student": {
+            "name": "Revenue Per Student",
+            "domain": "institutional",
+            "raw_value": 36029,
+            "raw_label": "$36,029",
+            "score": 46.7,
+            "weight": 0.33,
+            "signal": "yellow"
+          },
+          "net_income": {
+            "name": "Net Income",
+            "domain": "financial",
+            "raw_value": 1050000,
+            "raw_label": "$1.1M",
+            "score": 12.4,
+            "weight": 0.5,
+            "signal": "red"
+          },
+          "cost_efficiency": {
+            "name": "Cost Efficiency",
+            "domain": "financial",
+            "raw_value": 0.57,
+            "raw_label": "0.57",
+            "score": 31.1,
+            "weight": 0.5,
+            "signal": "red"
+          }
+        },
+        "demand": {
+          "score": 33.1,
+          "signal": "red",
+          "rank": 5
+        },
+        "institutional": {
+          "score": 36.9,
+          "signal": "red",
+          "rank": 7
+        },
+        "financial": {
+          "score": 21.8,
+          "signal": "red",
+          "rank": 8
+        },
+        "composite": {
+          "score": 32.0,
+          "signal": "red",
+          "rank": 5
+        },
+        "context": {
+          "enrollment_ay25": 68,
+          "education_alignment": "exact_match",
+          "pa_median_wage": 77940
+        }
+      },
+      "PROG_B": {
+        "key": "PROG_B",
+        "full_name": "Program Beta",
+        "department": "DEPT_1",
+        "degree_level": "Doctorate",
+        "dimensions": {
+          "projected_growth": {
+            "name": "Projected Growth",
+            "domain": "demand",
+            "raw_value": 9.5,
+            "raw_label": "9.5%",
+            "score": 41.4,
+            "weight": 0.25,
+            "signal": "yellow"
+          },
+          "annual_openings": {
+            "name": "Annual Openings",
+            "domain": "demand",
+            "raw_value": 0.7,
+            "raw_label": "0.7K",
+            "score": 1.0,
+            "weight": 0.2,
+            "signal": "red"
+          },
+          "median_wage": {
+            "name": "Median Wage",
+            "domain": "demand",
+            "raw_value": 93000,
+            "raw_label": "$93,000",
+            "score": 52.5,
+            "weight": 0.15,
+            "signal": "yellow"
+          },
+          "separation_rate": {
+            "name": "Separation Rate",
+            "domain": "demand",
+            "raw_value": 2.1,
+            "raw_label": "2.1%",
+            "score": 1.0,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "supply_ratio": {
+            "name": "Supply Ratio",
+            "domain": "demand",
+            "raw_value": 0.871,
+            "raw_label": "0.87x",
+            "score": 43.5,
+            "weight": 0.15,
+            "signal": "yellow"
+          },
+          "skill_intensity": {
+            "name": "Skill Intensity",
+            "domain": "demand",
+            "raw_value": 3.22,
+            "raw_label": "3.22",
+            "score": 57.3,
+            "weight": 0.1,
+            "signal": "yellow"
+          },
+          "enrollment_trend": {
+            "name": "Enrollment Trend",
+            "domain": "institutional",
+            "raw_value": 2.767587743285249,
+            "raw_label": "2.8%",
+            "score": 55.5,
+            "weight": 0.34,
+            "signal": "yellow"
+          },
+          "gross_tuition": {
+            "name": "Gross Tuition",
+            "domain": "institutional",
+            "raw_value": 1200000,
+            "raw_label": "$1.2M",
+            "score": 6.7,
+            "weight": 0.33,
+            "signal": "red"
+          },
+          "revenue_per_student": {
+            "name": "Revenue Per Student",
+            "domain": "institutional",
+            "raw_value": 41379,
+            "raw_label": "$41,379",
+            "score": 58.6,
+            "weight": 0.33,
+            "signal": "yellow"
+          },
+          "net_income": {
+            "name": "Net Income",
+            "domain": "financial",
+            "raw_value": 420000,
+            "raw_label": "$0.4M",
+            "score": 7.4,
+            "weight": 0.5,
+            "signal": "red"
+          },
+          "cost_efficiency": {
+            "name": "Cost Efficiency",
+            "domain": "financial",
+            "raw_value": 0.65,
+            "raw_label": "0.65",
+            "score": 37.0,
+            "weight": 0.5,
+            "signal": "red"
+          }
+        },
+        "demand": {
+          "score": 30.8,
+          "signal": "red",
+          "rank": 6
+        },
+        "institutional": {
+          "score": 40.4,
+          "signal": "yellow",
+          "rank": 4
+        },
+        "financial": {
+          "score": 22.2,
+          "signal": "red",
+          "rank": 7
+        },
+        "composite": {
+          "score": 32.0,
+          "signal": "red",
+          "rank": 6
+        },
+        "context": {
+          "enrollment_ay25": 29,
+          "education_alignment": "exact_match",
+          "pa_median_wage": 96431
+        }
+      },
+      "PROG_C": {
+        "key": "PROG_C",
+        "full_name": "Program Gamma",
+        "department": "DEPT_2",
+        "degree_level": "Master's",
+        "dimensions": {
+          "projected_growth": {
+            "name": "Projected Growth",
+            "domain": "demand",
+            "raw_value": 4.7,
+            "raw_label": "4.7%",
+            "score": 27.7,
+            "weight": 0.25,
+            "signal": "red"
+          },
+          "annual_openings": {
+            "name": "Annual Openings",
+            "domain": "demand",
+            "raw_value": 5.4,
+            "raw_label": "5.4K",
+            "score": 7.7,
+            "weight": 0.2,
+            "signal": "red"
+          },
+          "median_wage": {
+            "name": "Median Wage",
+            "domain": "demand",
+            "raw_value": 68000,
+            "raw_label": "$68,000",
+            "score": 31.7,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "separation_rate": {
+            "name": "Separation Rate",
+            "domain": "demand",
+            "raw_value": 5.8,
+            "raw_label": "5.8%",
+            "score": 38.0,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "supply_ratio": {
+            "name": "Supply Ratio",
+            "domain": "demand",
+            "raw_value": 0.491,
+            "raw_label": "0.49x",
+            "score": 24.6,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "skill_intensity": {
+            "name": "Skill Intensity",
+            "domain": "demand",
+            "raw_value": 3.18,
+            "raw_label": "3.18",
+            "score": 56.0,
+            "weight": 0.1,
+            "signal": "yellow"
+          },
+          "enrollment_trend": {
+            "name": "Enrollment Trend",
+            "domain": "institutional",
+            "raw_value": -15.91035847462855,
+            "raw_label": "-15.9%",
+            "score": 18.2,
+            "weight": 0.34,
+            "signal": "red"
+          },
+          "gross_tuition": {
+            "name": "Gross Tuition",
+            "domain": "institutional",
+            "raw_value": 700000,
+            "raw_label": "$0.7M",
+            "score": 3.9,
+            "weight": 0.33,
+            "signal": "red"
+          },
+          "revenue_per_student": {
+            "name": "Revenue Per Student",
+            "domain": "institutional",
+            "raw_value": 33333,
+            "raw_label": "$33,333",
+            "score": 40.7,
+            "weight": 0.33,
+            "signal": "yellow"
+          },
+          "net_income": {
+            "name": "Net Income",
+            "domain": "financial",
+            "raw_value": 80000,
+            "raw_label": "$0.1M",
+            "score": 4.6,
+            "weight": 0.5,
+            "signal": "red"
+          },
+          "cost_efficiency": {
+            "name": "Cost Efficiency",
+            "domain": "financial",
+            "raw_value": 0.89,
+            "raw_label": "0.89",
+            "score": 54.8,
+            "weight": 0.5,
+            "signal": "yellow"
+          }
+        },
+        "demand": {
+          "score": 28.2,
+          "signal": "red",
+          "rank": 8
+        },
+        "institutional": {
+          "score": 20.9,
+          "signal": "red",
+          "rank": 8
+        },
+        "financial": {
+          "score": 29.7,
+          "signal": "red",
+          "rank": 5
+        },
+        "composite": {
+          "score": 26.3,
+          "signal": "red",
+          "rank": 9
+        },
+        "context": {
+          "enrollment_ay25": 21,
+          "education_alignment": "exact_match",
+          "pa_median_wage": 69856
+        }
+      },
+      "PROG_D": {
+        "key": "PROG_D",
+        "full_name": "Program Delta",
+        "department": "DEPT_2",
+        "degree_level": "Master's",
+        "dimensions": {
+          "projected_growth": {
+            "name": "Projected Growth",
+            "domain": "demand",
+            "raw_value": 5.4,
+            "raw_label": "5.4%",
+            "score": 29.7,
+            "weight": 0.25,
+            "signal": "red"
+          },
+          "annual_openings": {
+            "name": "Annual Openings",
+            "domain": "demand",
+            "raw_value": 3.8,
+            "raw_label": "3.8K",
+            "score": 5.4,
+            "weight": 0.2,
+            "signal": "red"
+          },
+          "median_wage": {
+            "name": "Median Wage",
+            "domain": "demand",
+            "raw_value": 58000,
+            "raw_label": "$58,000",
+            "score": 23.3,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "separation_rate": {
+            "name": "Separation Rate",
+            "domain": "demand",
+            "raw_value": 8.2,
+            "raw_label": "8.2%",
+            "score": 62.0,
+            "weight": 0.15,
+            "signal": "yellow"
+          },
+          "supply_ratio": {
+            "name": "Supply Ratio",
+            "domain": "demand",
+            "raw_value": 0.224,
+            "raw_label": "0.22x",
+            "score": 11.2,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "skill_intensity": {
+            "name": "Skill Intensity",
+            "domain": "demand",
+            "raw_value": 3.19,
+            "raw_label": "3.19",
+            "score": 56.3,
+            "weight": 0.1,
+            "signal": "yellow"
+          },
+          "enrollment_trend": {
+            "name": "Enrollment Trend",
+            "domain": "institutional",
+            "raw_value": -22.694482430605454,
+            "raw_label": "-22.7%",
+            "score": 4.6,
+            "weight": 0.34,
+            "signal": "red"
+          },
+          "gross_tuition": {
+            "name": "Gross Tuition",
+            "domain": "institutional",
+            "raw_value": 540000,
+            "raw_label": "$0.5M",
+            "score": 3.0,
+            "weight": 0.33,
+            "signal": "red"
+          },
+          "revenue_per_student": {
+            "name": "Revenue Per Student",
+            "domain": "institutional",
+            "raw_value": 36000,
+            "raw_label": "$36,000",
+            "score": 46.7,
+            "weight": 0.33,
+            "signal": "yellow"
+          },
+          "net_income": {
+            "name": "Net Income",
+            "domain": "financial",
+            "raw_value": -240000,
+            "raw_label": "$-0.2M",
+            "score": 2.1,
+            "weight": 0.5,
+            "signal": "red"
+          },
+          "cost_efficiency": {
+            "name": "Cost Efficiency",
+            "domain": "financial",
+            "raw_value": 1.44,
+            "raw_label": "1.44",
+            "score": 95.6,
+            "weight": 0.5,
+            "signal": "green"
+          }
+        },
+        "demand": {
+          "score": 28.6,
+          "signal": "red",
+          "rank": 7
+        },
+        "institutional": {
+          "score": 18.0,
+          "signal": "red",
+          "rank": 9
+        },
+        "financial": {
+          "score": 48.8,
+          "signal": "yellow",
+          "rank": 2
+        },
+        "composite": {
+          "score": 29.5,
+          "signal": "red",
+          "rank": 8
+        },
+        "context": {
+          "enrollment_ay25": 15,
+          "education_alignment": "exact_match",
+          "pa_median_wage": 58908
+        }
+      },
+      "PROG_E": {
+        "key": "PROG_E",
+        "full_name": "Program Epsilon",
+        "department": "DEPT_3",
+        "degree_level": "Doctorate",
+        "dimensions": {
+          "projected_growth": {
+            "name": "Projected Growth",
+            "domain": "demand",
+            "raw_value": 14.8,
+            "raw_label": "14.8%",
+            "score": 56.6,
+            "weight": 0.25,
+            "signal": "yellow"
+          },
+          "annual_openings": {
+            "name": "Annual Openings",
+            "domain": "demand",
+            "raw_value": 10.5,
+            "raw_label": "10.5K",
+            "score": 15.0,
+            "weight": 0.2,
+            "signal": "red"
+          },
+          "median_wage": {
+            "name": "Median Wage",
+            "domain": "demand",
+            "raw_value": 98500,
+            "raw_label": "$98,500",
+            "score": 57.1,
+            "weight": 0.15,
+            "signal": "yellow"
+          },
+          "separation_rate": {
+            "name": "Separation Rate",
+            "domain": "demand",
+            "raw_value": 3.5,
+            "raw_label": "3.5%",
+            "score": 15.0,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "supply_ratio": {
+            "name": "Supply Ratio",
+            "domain": "demand",
+            "raw_value": 0.59,
+            "raw_label": "0.59x",
+            "score": 29.5,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "skill_intensity": {
+            "name": "Skill Intensity",
+            "domain": "demand",
+            "raw_value": 3.26,
+            "raw_label": "3.26",
+            "score": 58.7,
+            "weight": 0.1,
+            "signal": "yellow"
+          },
+          "enrollment_trend": {
+            "name": "Enrollment Trend",
+            "domain": "institutional",
+            "raw_value": 5.737126344056409,
+            "raw_label": "5.7%",
+            "score": 61.5,
+            "weight": 0.34,
+            "signal": "yellow"
+          },
+          "gross_tuition": {
+            "name": "Gross Tuition",
+            "domain": "institutional",
+            "raw_value": 7500000,
+            "raw_label": "$7.5M",
+            "score": 41.7,
+            "weight": 0.33,
+            "signal": "yellow"
+          },
+          "revenue_per_student": {
+            "name": "Revenue Per Student",
+            "domain": "institutional",
+            "raw_value": 60000,
+            "raw_label": "$60,000",
+            "score": 100,
+            "weight": 0.33,
+            "signal": "green"
+          },
+          "net_income": {
+            "name": "Net Income",
+            "domain": "financial",
+            "raw_value": 4300000,
+            "raw_label": "$4.3M",
+            "score": 38.4,
+            "weight": 0.5,
+            "signal": "red"
+          },
+          "cost_efficiency": {
+            "name": "Cost Efficiency",
+            "domain": "financial",
+            "raw_value": 0.43,
+            "raw_label": "0.43",
+            "score": 20.7,
+            "weight": 0.5,
+            "signal": "red"
+          }
+        },
+        "demand": {
+          "score": 38.3,
+          "signal": "red",
+          "rank": 4
+        },
+        "institutional": {
+          "score": 67.7,
+          "signal": "yellow",
+          "rank": 1
+        },
+        "financial": {
+          "score": 29.5,
+          "signal": "red",
+          "rank": 6
+        },
+        "composite": {
+          "score": 45.3,
+          "signal": "yellow",
+          "rank": 3
+        },
+        "context": {
+          "enrollment_ay25": 125,
+          "education_alignment": "exact_match",
+          "pa_median_wage": 93469
+        }
+      },
+      "PROG_F": {
+        "key": "PROG_F",
+        "full_name": "Program Zeta",
+        "department": "DEPT_3",
+        "degree_level": "Doctorate",
+        "dimensions": {
+          "projected_growth": {
+            "name": "Projected Growth",
+            "domain": "demand",
+            "raw_value": 10.9,
+            "raw_label": "10.9%",
+            "score": 45.4,
+            "weight": 0.25,
+            "signal": "yellow"
+          },
+          "annual_openings": {
+            "name": "Annual Openings",
+            "domain": "demand",
+            "raw_value": 13.2,
+            "raw_label": "13.2K",
+            "score": 18.9,
+            "weight": 0.2,
+            "signal": "red"
+          },
+          "median_wage": {
+            "name": "Median Wage",
+            "domain": "demand",
+            "raw_value": 101000,
+            "raw_label": "$101,000",
+            "score": 59.2,
+            "weight": 0.15,
+            "signal": "yellow"
+          },
+          "separation_rate": {
+            "name": "Separation Rate",
+            "domain": "demand",
+            "raw_value": 3.7,
+            "raw_label": "3.7%",
+            "score": 17.0,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "supply_ratio": {
+            "name": "Supply Ratio",
+            "domain": "demand",
+            "raw_value": 0.962,
+            "raw_label": "0.96x",
+            "score": 48.1,
+            "weight": 0.15,
+            "signal": "yellow"
+          },
+          "skill_intensity": {
+            "name": "Skill Intensity",
+            "domain": "demand",
+            "raw_value": 3.04,
+            "raw_label": "3.04",
+            "score": 51.3,
+            "weight": 0.1,
+            "signal": "yellow"
+          },
+          "enrollment_trend": {
+            "name": "Enrollment Trend",
+            "domain": "institutional",
+            "raw_value": 20.387716156912884,
+            "raw_label": "20.4%",
+            "score": 90.8,
+            "weight": 0.34,
+            "signal": "green"
+          },
+          "gross_tuition": {
+            "name": "Gross Tuition",
+            "domain": "institutional",
+            "raw_value": 11960000,
+            "raw_label": "$12.0M",
+            "score": 66.4,
+            "weight": 0.33,
+            "signal": "yellow"
+          },
+          "revenue_per_student": {
+            "name": "Revenue Per Student",
+            "domain": "institutional",
+            "raw_value": 30126,
+            "raw_label": "$30,126",
+            "score": 33.6,
+            "weight": 0.33,
+            "signal": "red"
+          },
+          "net_income": {
+            "name": "Net Income",
+            "domain": "financial",
+            "raw_value": 6440000,
+            "raw_label": "$6.4M",
+            "score": 55.5,
+            "weight": 0.5,
+            "signal": "yellow"
+          },
+          "cost_efficiency": {
+            "name": "Cost Efficiency",
+            "domain": "financial",
+            "raw_value": 0.46,
+            "raw_label": "0.46",
+            "score": 23.0,
+            "weight": 0.5,
+            "signal": "red"
+          }
+        },
+        "demand": {
+          "score": 38.9,
+          "signal": "red",
+          "rank": 3
+        },
+        "institutional": {
+          "score": 63.9,
+          "signal": "yellow",
+          "rank": 2
+        },
+        "financial": {
+          "score": 39.2,
+          "signal": "red",
+          "rank": 4
+        },
+        "composite": {
+          "score": 46.5,
+          "signal": "yellow",
+          "rank": 2
+        },
+        "context": {
+          "enrollment_ay25": 397,
+          "education_alignment": "exact_match",
+          "pa_median_wage": 103879
+        }
+      },
+      "PROG_G": {
+        "key": "PROG_G",
+        "full_name": "Program Eta",
+        "department": "DEPT_4",
+        "degree_level": "Doctorate",
+        "dimensions": {
+          "projected_growth": {
+            "name": "Projected Growth",
+            "domain": "demand",
+            "raw_value": 20.4,
+            "raw_label": "20.4%",
+            "score": 72.6,
+            "weight": 0.25,
+            "signal": "green"
+          },
+          "annual_openings": {
+            "name": "Annual Openings",
+            "domain": "demand",
+            "raw_value": 12.0,
+            "raw_label": "12.0K",
+            "score": 17.1,
+            "weight": 0.2,
+            "signal": "red"
+          },
+          "median_wage": {
+            "name": "Median Wage",
+            "domain": "demand",
+            "raw_value": 133000,
+            "raw_label": "$133,000",
+            "score": 85.8,
+            "weight": 0.15,
+            "signal": "green"
+          },
+          "separation_rate": {
+            "name": "Separation Rate",
+            "domain": "demand",
+            "raw_value": 4.9,
+            "raw_label": "4.9%",
+            "score": 29.0,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "supply_ratio": {
+            "name": "Supply Ratio",
+            "domain": "demand",
+            "raw_value": 0.975,
+            "raw_label": "0.97x",
+            "score": 48.8,
+            "weight": 0.15,
+            "signal": "yellow"
+          },
+          "skill_intensity": {
+            "name": "Skill Intensity",
+            "domain": "demand",
+            "raw_value": 3.33,
+            "raw_label": "3.33",
+            "score": 61.0,
+            "weight": 0.1,
+            "signal": "yellow"
+          },
+          "enrollment_trend": {
+            "name": "Enrollment Trend",
+            "domain": "institutional",
+            "raw_value": null,
+            "raw_label": "N/A",
+            "score": null,
+            "weight": 0.34,
+            "signal": "red"
+          },
+          "gross_tuition": {
+            "name": "Gross Tuition",
+            "domain": "institutional",
+            "raw_value": 17300000,
+            "raw_label": "$17.3M",
+            "score": 96.1,
+            "weight": 0.33,
+            "signal": "green"
+          },
+          "revenue_per_student": {
+            "name": "Revenue Per Student",
+            "domain": "institutional",
+            "raw_value": 46757,
+            "raw_label": "$46,757",
+            "score": 70.6,
+            "weight": 0.33,
+            "signal": "green"
+          },
+          "net_income": {
+            "name": "Net Income",
+            "domain": "financial",
+            "raw_value": 11410000,
+            "raw_label": "$11.4M",
+            "score": 95.3,
+            "weight": 0.5,
+            "signal": "green"
+          },
+          "cost_efficiency": {
+            "name": "Cost Efficiency",
+            "domain": "financial",
+            "raw_value": 0.34,
+            "raw_label": "0.34",
+            "score": 14.1,
+            "weight": 0.5,
+            "signal": "red"
+          }
+        },
+        "demand": {
+          "score": 52.2,
+          "signal": "yellow",
+          "rank": 1
+        },
+        "institutional": {
+          "score": 55.0,
+          "signal": "yellow",
+          "rank": 3
+        },
+        "financial": {
+          "score": 54.7,
+          "signal": "yellow",
+          "rank": 1
+        },
+        "composite": {
+          "score": 53.5,
+          "signal": "yellow",
+          "rank": 1
+        },
+        "context": {
+          "enrollment_ay25": 370,
+          "education_alignment": "exact_match",
+          "pa_median_wage": 137486
+        }
+      },
+      "PROG_H": {
+        "key": "PROG_H",
+        "full_name": "Program Theta",
+        "department": "DEPT_5",
+        "degree_level": "Master's",
+        "dimensions": {
+          "projected_growth": {
+            "name": "Projected Growth",
+            "domain": "demand",
+            "raw_value": 14.8,
+            "raw_label": "14.8%",
+            "score": 56.6,
+            "weight": 0.25,
+            "signal": "yellow"
+          },
+          "annual_openings": {
+            "name": "Annual Openings",
+            "domain": "demand",
+            "raw_value": 47.6,
+            "raw_label": "47.6K",
+            "score": 68.0,
+            "weight": 0.2,
+            "signal": "yellow"
+          },
+          "median_wage": {
+            "name": "Median Wage",
+            "domain": "demand",
+            "raw_value": 112000,
+            "raw_label": "$112,000",
+            "score": 68.3,
+            "weight": 0.15,
+            "signal": "yellow"
+          },
+          "separation_rate": {
+            "name": "Separation Rate",
+            "domain": "demand",
+            "raw_value": 5.1,
+            "raw_label": "5.1%",
+            "score": 31.0,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "supply_ratio": {
+            "name": "Supply Ratio",
+            "domain": "demand",
+            "raw_value": 0.116,
+            "raw_label": "0.12x",
+            "score": 5.8,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "skill_intensity": {
+            "name": "Skill Intensity",
+            "domain": "demand",
+            "raw_value": 3.15,
+            "raw_label": "3.15",
+            "score": 55.0,
+            "weight": 0.1,
+            "signal": "yellow"
+          },
+          "enrollment_trend": {
+            "name": "Enrollment Trend",
+            "domain": "institutional",
+            "raw_value": 15.164517092419395,
+            "raw_label": "15.2%",
+            "score": 80.3,
+            "weight": 0.34,
+            "signal": "green"
+          },
+          "gross_tuition": {
+            "name": "Gross Tuition",
+            "domain": "institutional",
+            "raw_value": 3200000,
+            "raw_label": "$3.2M",
+            "score": 17.8,
+            "weight": 0.33,
+            "signal": "red"
+          },
+          "revenue_per_student": {
+            "name": "Revenue Per Student",
+            "domain": "institutional",
+            "raw_value": 21918,
+            "raw_label": "$21,918",
+            "score": 15.4,
+            "weight": 0.33,
+            "signal": "red"
+          },
+          "net_income": {
+            "name": "Net Income",
+            "domain": "financial",
+            "raw_value": 1850000,
+            "raw_label": "$1.9M",
+            "score": 18.8,
+            "weight": 0.5,
+            "signal": "red"
+          },
+          "cost_efficiency": {
+            "name": "Cost Efficiency",
+            "domain": "financial",
+            "raw_value": 0.42,
+            "raw_label": "0.42",
+            "score": 20.0,
+            "weight": 0.5,
+            "signal": "red"
+          }
+        },
+        "demand": {
+          "score": 49.0,
+          "signal": "yellow",
+          "rank": 2
+        },
+        "institutional": {
+          "score": 38.3,
+          "signal": "red",
+          "rank": 5
+        },
+        "financial": {
+          "score": 19.4,
+          "signal": "red",
+          "rank": 9
+        },
+        "composite": {
+          "score": 39.9,
+          "signal": "red",
+          "rank": 4
+        },
+        "context": {
+          "enrollment_ay25": 146,
+          "education_alignment": "exact_match",
+          "pa_median_wage": 107531
+        }
+      },
+      "PROG_I": {
+        "key": "PROG_I",
+        "full_name": "Program Iota",
+        "department": "DEPT_6",
+        "degree_level": "Master's",
+        "dimensions": {
+          "projected_growth": {
+            "name": "Projected Growth",
+            "domain": "demand",
+            "raw_value": -3.6,
+            "raw_label": "-3.6%",
+            "score": 4.0,
+            "weight": 0.25,
+            "signal": "red"
+          },
+          "annual_openings": {
+            "name": "Annual Openings",
+            "domain": "demand",
+            "raw_value": 6.8,
+            "raw_label": "6.8K",
+            "score": 9.7,
+            "weight": 0.2,
+            "signal": "red"
+          },
+          "median_wage": {
+            "name": "Median Wage",
+            "domain": "demand",
+            "raw_value": 52000,
+            "raw_label": "$52,000",
+            "score": 18.3,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "separation_rate": {
+            "name": "Separation Rate",
+            "domain": "demand",
+            "raw_value": 6.3,
+            "raw_label": "6.3%",
+            "score": 43.0,
+            "weight": 0.15,
+            "signal": "yellow"
+          },
+          "supply_ratio": {
+            "name": "Supply Ratio",
+            "domain": "demand",
+            "raw_value": 0.309,
+            "raw_label": "0.31x",
+            "score": 15.4,
+            "weight": 0.15,
+            "signal": "red"
+          },
+          "skill_intensity": {
+            "name": "Skill Intensity",
+            "domain": "demand",
+            "raw_value": 3.35,
+            "raw_label": "3.35",
+            "score": 61.7,
+            "weight": 0.1,
+            "signal": "yellow"
+          },
+          "enrollment_trend": {
+            "name": "Enrollment Trend",
+            "domain": "institutional",
+            "raw_value": 24.835389411334763,
+            "raw_label": "24.8%",
+            "score": 99.7,
+            "weight": 0.34,
+            "signal": "green"
+          },
+          "gross_tuition": {
+            "name": "Gross Tuition",
+            "domain": "institutional",
+            "raw_value": 322000,
+            "raw_label": "$0.3M",
+            "score": 1.8,
+            "weight": 0.33,
+            "signal": "red"
+          },
+          "revenue_per_student": {
+            "name": "Revenue Per Student",
+            "domain": "institutional",
+            "raw_value": 18941,
+            "raw_label": "$18,941",
+            "score": 8.8,
+            "weight": 0.33,
+            "signal": "red"
+          },
+          "net_income": {
+            "name": "Net Income",
+            "domain": "financial",
+            "raw_value": -98000,
+            "raw_label": "$-0.1M",
+            "score": 3.2,
+            "weight": 0.5,
+            "signal": "red"
+          },
+          "cost_efficiency": {
+            "name": "Cost Efficiency",
+            "domain": "financial",
+            "raw_value": 1.3,
+            "raw_label": "1.30",
+            "score": 85.2,
+            "weight": 0.5,
+            "signal": "green"
+          }
+        },
+        "demand": {
+          "score": 20.6,
+          "signal": "red",
+          "rank": 9
+        },
+        "institutional": {
+          "score": 37.4,
+          "signal": "red",
+          "rank": 6
+        },
+        "financial": {
+          "score": 44.2,
+          "signal": "yellow",
+          "rank": 3
+        },
+        "composite": {
+          "score": 30.4,
+          "signal": "red",
+          "rank": 7
+        },
+        "context": {
+          "enrollment_ay25": 17,
+          "education_alignment": "exact_match",
+          "pa_median_wage": 53145
+        }
+      }
+    },
+    "leaderboard": [
+      {
+        "rank": 1,
+        "key": "PROG_G",
+        "full_name": "Program Eta",
+        "composite_score": 53.5,
+        "composite_signal": "yellow",
+        "demand_score": 52.2,
+        "demand_signal": "yellow",
+        "institutional_score": 55.0,
+        "institutional_signal": "yellow",
+        "financial_score": 54.7,
+        "financial_signal": "yellow"
+      },
+      {
+        "rank": 2,
+        "key": "PROG_F",
+        "full_name": "Program Zeta",
+        "composite_score": 46.5,
+        "composite_signal": "yellow",
+        "demand_score": 38.9,
+        "demand_signal": "red",
+        "institutional_score": 63.9,
+        "institutional_signal": "yellow",
+        "financial_score": 39.2,
+        "financial_signal": "red"
+      },
+      {
+        "rank": 3,
+        "key": "PROG_E",
+        "full_name": "Program Epsilon",
+        "composite_score": 45.3,
+        "composite_signal": "yellow",
+        "demand_score": 38.3,
+        "demand_signal": "red",
+        "institutional_score": 67.7,
+        "institutional_signal": "yellow",
+        "financial_score": 29.5,
+        "financial_signal": "red"
+      },
+      {
+        "rank": 4,
+        "key": "PROG_H",
+        "full_name": "Program Theta",
+        "composite_score": 39.9,
+        "composite_signal": "red",
+        "demand_score": 49.0,
+        "demand_signal": "yellow",
+        "institutional_score": 38.3,
+        "institutional_signal": "red",
+        "financial_score": 19.4,
+        "financial_signal": "red"
+      },
+      {
+        "rank": 5,
+        "key": "PROG_A",
+        "full_name": "Program Alpha",
+        "composite_score": 32.0,
+        "composite_signal": "red",
+        "demand_score": 33.1,
+        "demand_signal": "red",
+        "institutional_score": 36.9,
+        "institutional_signal": "red",
+        "financial_score": 21.8,
+        "financial_signal": "red"
+      },
+      {
+        "rank": 6,
+        "key": "PROG_B",
+        "full_name": "Program Beta",
+        "composite_score": 32.0,
+        "composite_signal": "red",
+        "demand_score": 30.8,
+        "demand_signal": "red",
+        "institutional_score": 40.4,
+        "institutional_signal": "yellow",
+        "financial_score": 22.2,
+        "financial_signal": "red"
+      },
+      {
+        "rank": 7,
+        "key": "PROG_I",
+        "full_name": "Program Iota",
+        "composite_score": 30.4,
+        "composite_signal": "red",
+        "demand_score": 20.6,
+        "demand_signal": "red",
+        "institutional_score": 37.4,
+        "institutional_signal": "red",
+        "financial_score": 44.2,
+        "financial_signal": "yellow"
+      },
+      {
+        "rank": 8,
+        "key": "PROG_D",
+        "full_name": "Program Delta",
+        "composite_score": 29.5,
+        "composite_signal": "red",
+        "demand_score": 28.6,
+        "demand_signal": "red",
+        "institutional_score": 18.0,
+        "institutional_signal": "red",
+        "financial_score": 48.8,
+        "financial_signal": "yellow"
+      },
+      {
+        "rank": 9,
+        "key": "PROG_C",
+        "full_name": "Program Gamma",
+        "composite_score": 26.3,
+        "composite_signal": "red",
+        "demand_score": 28.2,
+        "demand_signal": "red",
+        "institutional_score": 20.9,
+        "institutional_signal": "red",
+        "financial_score": 29.7,
+        "financial_signal": "red"
+      }
+    ]
+  }
+}
