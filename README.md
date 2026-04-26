@@ -166,3 +166,4 @@ Built as an MQE Capstone project at the **University of Pittsburgh**, School of 
 ---
 
 *This dashboard demonstrates architecture and methodology. All program names, numbers, and institutional data are fabricated.*
+**Author:** [Gabriel Penedo](https://gabrielpriante.github.io)
