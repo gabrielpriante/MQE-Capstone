@@ -43,7 +43,7 @@ An interactive dashboard that scores and ranks academic programs across three do
 
 Each program receives a 0–100 composite score and a signal: 🟢 Green (≥70), 🟡 Yellow (40–69), 🔴 Red (<40).
 
-## Architecture: "The Sacred Wall"
+## Architecture: YAML
 
 ```
 YAML Config → Python Pipeline → pipeline_output.json → R Shiny Dashboard
